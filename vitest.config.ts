@@ -1,12 +1,11 @@
 import { defineConfig } from 'vitest/config';
+import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
+  plugins: [solidPlugin()],
   test: {
-    include: ['src/**/*.test.ts'],
-    coverage: {
-      provider: 'v8',
-      include: ['src/**/*.ts'],
-      exclude: ['src/**/*.test.ts', 'node_modules/'],
-    },
+    include: ['src/**/*.test.{ts,tsx}'],
+    environment: 'jsdom',
+    globals: true,
   },
 });
