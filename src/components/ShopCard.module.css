@@ -1,0 +1,80 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #2d2016;
+}
+
+.address {
+  font-size: 0.85rem;
+  color: #6b5e50;
+  margin: 0 0 8px;
+}
+
+.walkTimes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 10px;
+}
+
+.walkBadge {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f0e8dc;
+  color: #6b5e50;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0 0 8px;
+}
+
+.tag {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #e8ddd0;
+  color: #4a3f35;
+}
+
+.facilities {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: #6b5e50;
+}
+
+.facilityItem {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.babyStrollerEasy {
+  color: #4caf50;
+}
+
+.babyStrollerModerate {
+  color: #ff9800;
+}
+
+.babyStrollerDifficult {
+  color: #f44336;
+}
