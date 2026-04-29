@@ -1,0 +1,37 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  padding: 16px 0 0;
+}
+
+.headerTitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #4a3f35;
+  margin: 0;
+}
+
+.headerSubtitle {
+  font-size: 0.85rem;
+  color: #8b7e72;
+  margin: 4px 0 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  height: calc(100vh - 240px);
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}

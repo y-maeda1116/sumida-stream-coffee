@@ -1,6 +1,6 @@
 import { render } from "solid-js/web";
-
-const App = () => <div>sumida-stream-coffee</div>;
+import "./global.css";
+import { App } from "./App";
 
 const root = document.getElementById("root");
 
