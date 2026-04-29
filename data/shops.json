@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sumidagawa-roastery",
+    "name": "墨田川ロースタリー",
+    "address": "東京都台東区浅草橋5-20-8",
+    "stations": [
+      { "station": "浅草橋", "exitElevatorWalkMin": 5 },
+      { "station": "蔵前", "exitElevatorWalkMin": 9 }
+    ],
+    "brewMethods": ["ハンドドリップ", "エスプレッソ"],
+    "beansAvailable": true,
+    "selfRoasted": true,
+    "atmosphere": ["川沿い", "モダン"],
+    "babyStrollerAccess": "easy",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.6954,
+    "lng": 139.7925
+  },
+  {
+    "id": "kuramae-coffee-stand",
+    "name": "蔵前コーヒースタンド",
+    "address": "東京都台東区蔵前3-8-5",
+    "stations": [
+      { "station": "蔵前", "exitElevatorWalkMin": 3 },
+      { "station": "浅草橋", "exitElevatorWalkMin": 8 }
+    ],
+    "brewMethods": ["エスプレッソ", "ドリップ"],
+    "beansAvailable": true,
+    "selfRoasted": false,
+    "atmosphere": ["路地裏", "モダン"],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.6931,
+    "lng": 139.7885
+  },
+  {
+    "id": "asakusa-blend",
+    "name": "浅草ブレンド",
+    "address": "東京都台東区浅草2-12-4",
+    "stations": [
+      { "station": "浅草", "exitElevatorWalkMin": 6 },
+      { "station": "本所吾妻橋", "exitElevatorWalkMin": 10 }
+    ],
+    "brewMethods": ["ハンドドリップ", "ネル"],
+    "beansAvailable": true,
+    "selfRoasted": true,
+    "atmosphere": ["隠れ家", "レトロ"],
+    "babyStrollerAccess": "difficult",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.7118,
+    "lng": 139.7966
+  },
+  {
+    "id": "azumabashi-cafe",
+    "name": "吾妻橋カフェ",
+    "address": "東京都墨田区吾妻橋1-15-3",
+    "stations": [
+      { "station": "本所吾妻橋", "exitElevatorWalkMin": 4 },
+      { "station": "浅草", "exitElevatorWalkMin": 7 }
+    ],
+    "brewMethods": ["ドリップ", "エスプレッソ"],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": ["川沿い", "テラス"],
+    "babyStrollerAccess": "easy",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.7082,
+    "lng": 139.8035
+  },
+  {
+    "id": "asakusabashi-drip",
+    "name": "浅草橋ドリップ",
+    "address": "東京都台東区浅草橋1-6-2",
+    "stations": [
+      { "station": "浅草橋", "exitElevatorWalkMin": 3 },
+      { "station": "蔵前", "exitElevatorWalkMin": 11 }
+    ],
+    "brewMethods": ["ドリップ", "サイフォン"],
+    "beansAvailable": true,
+    "selfRoasted": false,
+    "atmosphere": ["レトロ", "路地裏"],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": false,
+    "lat": 35.6942,
+    "lng": 139.7846
+  }
+]
