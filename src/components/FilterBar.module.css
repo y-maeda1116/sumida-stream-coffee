@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 0;
+  border-top: 1px solid #e8ddd0;
+  border-bottom: 1px solid #e8ddd0;
+}
+
+.group {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.groupLabel {
+  font-size: 0.75rem;
+  color: #8b7e72;
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.toggle {
+  padding: 4px 10px;
+  border: 1px solid #d4c8b8;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  color: #4a3f35;
+}
+
+.toggle:hover {
+  background: #f5efe8;
+}
+
+.toggleActive {
+  background: #6b5e50;
+  color: #fff;
+  border-color: #6b5e50;
+}
+
+.toggleActive:hover {
+  background: #5a4f44;
+}
