@@ -1,8 +1,8 @@
 /**
  * raw_shops.json → shops.json 変換スクリプト
  *
- * 自動変換: id, name, address, hasWifi, hasPower, lat/lng(ジオコーディング), stations(駅名マッチ)
- * 要手動: brewMethods, beansAvailable, selfRoasted, atmosphere, babyStrollerAccess, exitElevatorWalkMin
+ * 自動変換: id, name, address, hasWifi, hasPower, lat/lng(ジオコーディング), stations(交通手段パース)
+ * 要手動: brewMethods, beansAvailable, selfRoasted, atmosphere, babyStrollerAccess
  *
  * 使い方: npm run convert
  */
@@ -13,6 +13,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const INPUT_PATH = resolve(__dirname, "..", "data", "raw_shops.json");
+const IGNORE_PATH = resolve(__dirname, "..", "data", "ignore.json");
 const OUTPUT_PATH = resolve(__dirname, "..", "data", "shops.json");
 
 const VALID_STATIONS = ["浅草", "蔵前", "本所吾妻橋", "浅草橋"] as const;
@@ -22,6 +23,7 @@ interface RawShop {
   name: string;
   address: string;
   station: string;
+  accessText: string;
   phone: string;
   hasWifi: boolean | null;
   hasPower: boolean | null;
@@ -44,27 +46,61 @@ interface Shop {
   lng: number;
 }
 
-const SLEEP_MS = 1100; // Nominatim requires >= 1s between requests
+const SLEEP_MS = 1100;
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function matchStation(rawStation: string): string[] {
-  const matched: string[] = [];
-  for (const s of VALID_STATIONS) {
-    if (rawStation.includes(s)) {
-      matched.push(s);
+function loadIgnoreList(): Set<string> {
+  try {
+    const raw = readFileSync(IGNORE_PATH, "utf-8");
+    const ids: string[] = JSON.parse(raw);
+    return new Set(ids);
+  } catch {
+    return new Set();
+  }
+}
+
+function parseAccessText(accessText: string): { station: string; exitElevatorWalkMin: number }[] {
+  const results: { station: string; exitElevatorWalkMin: number }[] = [];
+  const seen = new Set<string>();
+
+  const lines = accessText.split(/[\n\r]+/).map((l) => l.trim()).filter(Boolean);
+
+  for (const line of lines) {
+    let walkMin: number | null = null;
+
+    const walkMatch = line.match(/徒歩(\d+)分/);
+    if (walkMatch) {
+      walkMin = parseInt(walkMatch[1], 10);
+    }
+
+    if (walkMin === null) {
+      const distMatch = line.match(/(\d+)m/);
+      if (distMatch) {
+        walkMin = Math.max(1, Math.ceil(parseInt(distMatch[1], 10) / 80));
+      }
+    }
+
+    if (walkMin === null) continue;
+
+    let bestMatch: string | null = null;
+    for (const valid of VALID_STATIONS) {
+      if (line.includes(valid)) {
+        if (!bestMatch || valid.length > bestMatch.length) {
+          bestMatch = valid;
+        }
+      }
+    }
+
+    if (bestMatch && !seen.has(bestMatch)) {
+      seen.add(bestMatch);
+      results.push({ station: bestMatch, exitElevatorWalkMin: walkMin });
     }
   }
-  // Fallback: try common aliases
-  if (matched.length === 0) {
-    if (rawStation.includes("蔵前")) matched.push("蔵前");
-    if (rawStation.includes("吾妻橋")) matched.push("本所吾妻橋");
-    if (rawStation.includes("浅草橋")) matched.push("浅草橋");
-    if (rawStation.includes("浅草")) matched.push("浅草");
-  }
-  return [...new Set(matched)];
+
+  return results;
 }
 
 async function geocode(address: string): Promise<{ lat: number; lng: number }> {
@@ -80,7 +116,7 @@ async function geocode(address: string): Promise<{ lat: number; lng: number }> {
     const data = (await res.json()) as Array<{ lat: string; lon: string }>;
     if (data.length === 0) {
       console.warn(`  Geocode failed for: ${address}`);
-      return { lat: 35.7148, lng: 139.7967 }; // 浅草周辺のフォールバック
+      return { lat: 35.7148, lng: 139.7967 };
     }
 
     return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
@@ -96,25 +132,26 @@ async function convertShop(raw: RawShop, index: number, total: number): Promise<
   const { lat, lng } = await geocode(raw.address);
   await sleep(SLEEP_MS);
 
-  const stationNames = matchStation(raw.station);
-  const stations =
-    stationNames.length > 0
-      ? stationNames.map((station) => ({
-          station,
-          exitElevatorWalkMin: 0, // TODO: 手動で設定
-        }))
-      : [{ station: "浅草", exitElevatorWalkMin: 0 }]; // フォールバック
+  let stations = parseAccessText(raw.accessText);
+
+  if (stations.length === 0) {
+    const stationNames = matchStation(raw.station);
+    stations =
+      stationNames.length > 0
+        ? stationNames.map((station) => ({ station, exitElevatorWalkMin: 0 }))
+        : [{ station: "浅草", exitElevatorWalkMin: 0 }];
+  }
 
   return {
     id: raw.id,
     name: raw.name,
     address: raw.address,
     stations,
-    brewMethods: [], // TODO: 手動で設定
-    beansAvailable: false, // TODO: 手動で設定
-    selfRoasted: false, // TODO: 手動で設定
-    atmosphere: [], // TODO: 手動で設定
-    babyStrollerAccess: "moderate", // デフォルト
+    brewMethods: [],
+    beansAvailable: false,
+    selfRoasted: false,
+    atmosphere: [],
+    babyStrollerAccess: "moderate",
     hasPower: raw.hasPower ?? false,
     hasWifi: raw.hasWifi ?? false,
     lat,
@@ -122,13 +159,36 @@ async function convertShop(raw: RawShop, index: number, total: number): Promise<
   };
 }
 
+function matchStation(rawStation: string): string[] {
+  const matched: string[] = [];
+  for (const s of VALID_STATIONS) {
+    if (rawStation.includes(s)) {
+      matched.push(s);
+    }
+  }
+  if (matched.length === 0) {
+    if (rawStation.includes("蔵前")) matched.push("蔵前");
+    if (rawStation.includes("吾妻橋")) matched.push("本所吾妻橋");
+    if (rawStation.includes("浅草橋")) matched.push("浅草橋");
+    if (rawStation.includes("浅草")) matched.push("浅草");
+  }
+  return [...new Set(matched)];
+}
+
 async function main(): Promise<void> {
   const raw: RawShop[] = JSON.parse(readFileSync(INPUT_PATH, "utf-8"));
-  console.log(`Converting ${raw.length} shops...\n`);
+  const ignoreIds = loadIgnoreList();
+
+  const filtered = raw.filter((s) => !ignoreIds.has(s.id));
+  if (ignoreIds.size > 0) {
+    console.log(`Ignoring ${raw.length - filtered.length} shops from ignore list\n`);
+  }
+
+  console.log(`Converting ${filtered.length} shops...\n`);
 
   const shops: Shop[] = [];
-  for (let i = 0; i < raw.length; i++) {
-    const shop = await convertShop(raw[i], i, raw.length);
+  for (let i = 0; i < filtered.length; i++) {
+    const shop = await convertShop(filtered[i], i, filtered.length);
     shops.push(shop);
   }
 

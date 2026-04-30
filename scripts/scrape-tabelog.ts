@@ -25,6 +25,7 @@ interface RawShop {
   name: string;
   address: string;
   station: string;
+  accessText: string;
   phone: string;
   hasWifi: boolean | null;
   hasPower: boolean | null;
@@ -115,16 +116,17 @@ function extractPhone(html: string): string {
   return "";
 }
 
-function extractStation(html: string): string {
+function extractAccessInfo(html: string): { station: string; accessText: string } {
   const rowMatch = html.match(
     /<th>交通手段<\/th>\s*<td>([\s\S]*?)<\/td>/
   );
-  if (rowMatch) {
-    const text = stripTags(rowMatch[1]).trim();
-    const stationMatch = text.match(/([^\s,\/]+?駅)/);
-    return stationMatch ? stationMatch[1] : text.substring(0, 30);
-  }
-  return "";
+  if (!rowMatch) return { station: "", accessText: "" };
+
+  const text = stripTags(rowMatch[1]).trim();
+  const stationMatch = text.match(/([^\s,\/]+?駅)/);
+  const station = stationMatch ? stationMatch[1] : "";
+
+  return { station, accessText: text };
 }
 
 function extractFeatures(html: string): {
@@ -152,7 +154,7 @@ function extractDetail(html: string, url: string): RawShop {
   const name = extractName(html);
   const address = extractAddress(html);
   const phone = extractPhone(html);
-  const station = extractStation(html);
+  const { station, accessText } = extractAccessInfo(html);
   const { hasWifi, hasPower } = extractFeatures(html);
 
   const id = `tabelog-${url.split("/").filter(Boolean).pop() || Date.now()}`;
@@ -162,6 +164,7 @@ function extractDetail(html: string, url: string): RawShop {
     name,
     address,
     station,
+    accessText,
     phone,
     hasWifi,
     hasPower,
