@@ -14,6 +14,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\"",
     "scrape": "npx tsx scripts/scrape-tabelog.ts",
+    "convert": "npx tsx scripts/convert-shops.ts",
     "prepare": "husky"
   },
   "dependencies": {
