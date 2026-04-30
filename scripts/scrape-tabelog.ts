@@ -19,6 +19,7 @@ const AREA_URLS = [
 
 const SLEEP_MS = 3000;
 const MAX_PAGES_PER_AREA = 3;
+
 interface RawShop {
   id: string;
   name: string;
@@ -51,10 +52,13 @@ async function fetchPage(url: string): Promise<string> {
   return res.text();
 }
 
+function stripTags(html: string): string {
+  return html.replace(/<[^>]+>/g, "").trim();
+}
+
 function extractShopUrls(listHtml: string): string[] {
   const urls: string[] = [];
-  const pattern =
-    /<a[^>]+href="(https:\/\/tabelog\.com\/tokyo\/A\d+\/A\d+\/\d+\/)"[^>]*>/g;
+  const pattern = /data-detail-url="(https:\/\/tabelog\.com\/tokyo\/A\d+\/A\d+\/\d+\/)"/g;
   let match: RegExpExecArray | null;
 
   while ((match = pattern.exec(listHtml)) !== null) {
@@ -67,24 +71,14 @@ function extractShopUrls(listHtml: string): string[] {
   return urls;
 }
 
-function extractBetween(html: string, start: string, end: string): string {
-  const s = html.indexOf(start);
-  if (s === -1) return "";
-  const content = html.substring(s + start.length);
-  const e = content.indexOf(end);
-  if (e === -1) return "";
-  return content.substring(0, e).trim();
-}
-
-function stripTags(html: string): string {
-  return html.replace(/<[^>]+>/g, "").trim();
-}
-
 function extractName(html: string): string {
-  const match = html.match(
-    /<h2[^>]*class="display-name"[^>]*>[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>/
+  const dataMatch = html.match(/data-display-name="([^"]+)"/);
+  if (dataMatch) return dataMatch[1].trim();
+
+  const headingMatch = html.match(
+    /<h2[^>]*class="display-name"[^>]*>[\s\S]*?<span[^>]*>([\s\S]*?)<\/span>/
   );
-  if (match) return stripTags(match[1]);
+  if (headingMatch) return headingMatch[1].trim();
 
   const titleMatch = html.match(/<title>([\s\S]*?)<\/title>/);
   if (titleMatch) {
@@ -96,39 +90,62 @@ function extractName(html: string): string {
 }
 
 function extractAddress(html: string): string {
-  const block = extractBetween(
-    html,
-    'class="rstinfo-table__address"',
-    "</p>"
+  const dataMatch = html.match(/data-send-address="([^"]+)"/);
+  if (dataMatch) return dataMatch[1].trim();
+
+  const pMatch = html.match(
+    /<p[^>]*class="rstinfo-table__address"[^>]*>([\s\S]*?)<\/p>/
   );
-  return stripTags(block);
+  if (pMatch) {
+    return stripTags(pMatch[1]).replace(/^>\s*/, "").trim();
+  }
+
+  return "";
 }
 
 function extractPhone(html: string): string {
-  const block = extractBetween(
-    html,
-    'class="rstinfo-table__tel-number"',
-    "</strong>"
+  const dataMatch = html.match(/data-phone-number="([^"]+)"/);
+  if (dataMatch) return dataMatch[1].trim();
+
+  const match = html.match(
+    /<strong[^>]*class="rstinfo-table__tel-num"[^>]*>([\s\S]*?)<\/strong>/
   );
-  return stripTags(block);
+  if (match) return match[1].trim();
+
+  return "";
 }
 
 function extractStation(html: string): string {
-  const block = extractBetween(
-    html,
-    'class="rstinfo-table__access-text"',
-    "</div>"
+  const rowMatch = html.match(
+    /<th>交通手段<\/th>\s*<td>([\s\S]*?)<\/td>/
   );
-  const text = stripTags(block);
-  const match = text.match(/([^\x00-\x7F]+?)駅/);
-  return match ? match[1] + "駅" : text.substring(0, 30);
+  if (rowMatch) {
+    const text = stripTags(rowMatch[1]).trim();
+    const stationMatch = text.match(/([^\s,\/]+?駅)/);
+    return stationMatch ? stationMatch[1] : text.substring(0, 30);
+  }
+  return "";
 }
 
-function checkFeature(html: string, keyword: string): boolean | null {
-  const text = html.toLowerCase();
-  const found = text.includes(keyword.toLowerCase());
-  if (!found) return null;
-  return true;
+function extractFeatures(html: string): {
+  hasWifi: boolean | null;
+  hasPower: boolean | null;
+} {
+  const rowMatch = html.match(
+    /<th>空間・設備<\/th>\s*<td>([\s\S]*?)<\/td>/
+  );
+  if (!rowMatch) {
+    return { hasWifi: null, hasPower: null };
+  }
+
+  const text = stripTags(rowMatch[1]);
+  const hasWifi = text.includes("Wi-Fi") || text.includes("WiFi");
+  const hasPower = text.includes("電源");
+
+  return {
+    hasWifi: hasWifi || null,
+    hasPower: hasPower || null,
+  };
 }
 
 function extractDetail(html: string, url: string): RawShop {
@@ -136,17 +153,7 @@ function extractDetail(html: string, url: string): RawShop {
   const address = extractAddress(html);
   const phone = extractPhone(html);
   const station = extractStation(html);
-
-  const featureSection = extractBetween(
-    html,
-    'class="rstinfo-table__free-text"',
-    "</div>"
-  );
-
-  const hasWifi = checkFeature(featureSection || html, "Wi-Fi") ??
-    checkFeature(featureSection || html, "WiFi");
-  const hasPower = checkFeature(featureSection || html, "電源") ??
-    checkFeature(featureSection || html, "コンセント");
+  const { hasWifi, hasPower } = extractFeatures(html);
 
   const id = `tabelog-${url.split("/").filter(Boolean).pop() || Date.now()}`;
 
@@ -239,7 +246,7 @@ async function main(): Promise<void> {
     const shop = await scrapeShopDetail(url);
     if (shop && shop.name) {
       shops.push(shop);
-      console.log(`  -> ${shop.name}`);
+      console.log(`  -> ${shop.name} | ${shop.address} | ${shop.station}`);
     } else {
       console.log("  -> Skipped (no name extracted)");
     }
