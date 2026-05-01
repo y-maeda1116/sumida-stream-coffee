@@ -1,112 +1,72 @@
-# TypeScript Template Base
+# Sumida Stream Coffee
 
-A cross-platform TypeScript template repository optimized for Node.js tool development with consideration for future web frontend (React) migration.
+浅草・蔵前・本所吾妻橋・浅草橋エリアのカフェマップ。
 
-## Features
+食べログから毎日自動で店舗データを収集し、地図とリストで絞り込み・閲覧できるSPA。
 
-- TypeScript 7 (Go-based, ~10x faster) with strict mode
-- Hot-reload development with `tsx`
-- Dual CJS/ESM build with `tsup`
-- Testing with Vitest
-- Linting with ESLint (flat config)
-- Formatting with Prettier
-- Environment variable validation with Zod
-- CI/CD with GitHub Actions (Ubuntu, Windows, macOS)
+<https://y-maeda1116.github.io/sumida-stream-coffee/>
 
-## Requirements
+## 技術スタック
 
-- Node.js >= 20.0.0
-- npm
+- SolidJS + Vite
+- Leaflet（地図）
+- CSS Modules
+- TypeScript
+- GitHub Pages（ホスティング）
 
-## Setup
+## 機能
 
-1. Clone the repository
-2. Install dependencies:
+- 駅별カフェ一覧表示（浅草・蔵前・本所吾妻橋・浅草橋）
+- 地図マーカー表示（Leaflet）
+- フィルター（WiFi・電源・抽出方法・雰囲気・豆販売・自家焙煎・ベビーカー対応）
+- 駅からの徒歩分数表示
+
+## データパイプライン
+
+```
+食べログ → scrape → raw_shops.json → convert → shops.json → GitHub Pages
+```
+
+- **スクレイピング**: 毎日 JST 04:30 に GitHub Actions で自動実行
+- **変換**: ジオコーディング（Nominatim）+ 駅マッチング + 徒歩分数算出
+- **デプロイ**: `shops.json` またはソースコードの変更を検知して自動デプロイ
+
+## 店舗データ
+
+| 項目 | 説明 |
+|------|------|
+| name | 店名 |
+| address | 住所 |
+| stations | 最寄り駅と徒歩分数（複数対応） |
+| brewMethods | 抽出方法（ドリップ・エスプレッソ等） |
+| hasWifi / hasPower | WiFi・電源の有無 |
+| atmosphere | 雰囲気タグ（川沿い・テラス等） |
+| beansAvailable / selfRoasted | 豆販売・自家焙煎 |
+| babyStrollerAccess | ベビーカーアクセス（easy/moderate/difficult） |
+
+## 開発
 
 ```bash
 npm install
-```
-
-3. Create environment file:
-
-```bash
-cp .env.example .env
-```
-
-4. Edit `.env` with your actual values:
-
-```env
-DISCORD_TOKEN=your_discord_bot_token_here
-DEEPL_AUTH_KEY=your_deepl_auth_key_here
-```
-
-## Development
-
-Run in development mode with hot-reload:
-
-```bash
 npm run dev
 ```
 
-## Testing
+## スクリプト
 
-Run tests:
+| コマンド | 内容 |
+|----------|------|
+| `npm run scrape` | 食べログから店舗データを収集 |
+| `npm run convert` | raw_shops.json → shops.json に変換 |
+| `npm run build` | プロダクションビルド |
+| `npm test` | テスト実行 |
+| `npm run typecheck` | 型チェック |
+| `npm run lint` | ESLint |
+| `npm run format` | Prettier |
 
-```bash
-npm test
-```
+## 除外設定
 
-Run tests in watch mode:
+`data/ignore.json` に店舗IDを追加すると、変換時にスキップされます。
 
-```bash
-npm run test:watch
-```
-
-## Type Checking
-
-Run type checking with `tsgo`:
-
-```bash
-npm run typecheck
-```
-
-## Build
-
-Build for production:
-
-```bash
-npm run build
-```
-
-Run built files:
-
-```bash
-npm start
-```
-
-## Linting and Formatting
-
-Lint code:
-
-```bash
-npm run lint
-```
-
-Format code:
-
-```bash
-npm run format
-```
-
-## Environment Variables
-
-The following environment variables are required (customize for your project):
-
-| Variable | Description |
-|----------|-------------|
-| `DISCORD_TOKEN` | Discord bot token (example) |
-| `DEEPL_AUTH_KEY` | DeepL API key (example) |
-
-## License
+## ライセンス
 
 MIT
