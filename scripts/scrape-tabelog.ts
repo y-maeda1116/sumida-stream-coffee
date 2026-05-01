@@ -29,6 +29,8 @@ interface RawShop {
   phone: string;
   hasWifi: boolean | null;
   hasPower: boolean | null;
+  lat: number | null;
+  lng: number | null;
   sourceUrl: string;
 }
 
@@ -129,6 +131,14 @@ function extractAccessInfo(html: string): { station: string; accessText: string 
   return { station, accessText: text };
 }
 
+function extractLatLng(html: string): { lat: number | null; lng: number | null } {
+  const match = html.match(/center=([0-9.]+),([0-9.]+)/);
+  if (match) {
+    return { lat: parseFloat(match[1]), lng: parseFloat(match[2]) };
+  }
+  return { lat: null, lng: null };
+}
+
 function extractFeatures(html: string): {
   hasWifi: boolean | null;
   hasPower: boolean | null;
@@ -156,6 +166,7 @@ function extractDetail(html: string, url: string): RawShop {
   const phone = extractPhone(html);
   const { station, accessText } = extractAccessInfo(html);
   const { hasWifi, hasPower } = extractFeatures(html);
+  const { lat, lng } = extractLatLng(html);
 
   const id = `tabelog-${url.split("/").filter(Boolean).pop() || Date.now()}`;
 
@@ -168,6 +179,8 @@ function extractDetail(html: string, url: string): RawShop {
     phone,
     hasWifi,
     hasPower,
+    lat,
+    lng,
     sourceUrl: url,
   };
 }

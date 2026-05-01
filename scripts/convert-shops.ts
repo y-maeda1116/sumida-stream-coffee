@@ -27,6 +27,8 @@ interface RawShop {
   phone: string;
   hasWifi: boolean | null;
   hasPower: boolean | null;
+  lat: number | null;
+  lng: number | null;
   sourceUrl: string;
 }
 
@@ -46,11 +48,8 @@ interface Shop {
   lng: number;
 }
 
-const SLEEP_MS = 1100;
-
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+const FALLBACK_LAT = 35.7148;
+const FALLBACK_LNG = 139.7967;
 
 function loadIgnoreList(): Set<string> {
   try {
@@ -103,36 +102,13 @@ function parseAccessText(accessText: string): { station: string; exitElevatorWal
   return results;
 }
 
-async function geocode(address: string): Promise<{ lat: number; lng: number }> {
-  const query = encodeURIComponent(address);
-  const url = `https://nominatim.openstreetmap.org/search?q=${query}&format=json&limit=1&countrycodes=jp`;
-
-  try {
-    const res = await fetch(url, {
-      headers: { "User-Agent": "sumida-stream-coffee/1.0" },
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-    const data = (await res.json()) as Array<{ lat: string; lon: string }>;
-    if (data.length === 0) {
-      console.warn(`  Geocode failed for: ${address}`);
-      return { lat: 35.7148, lng: 139.7967 };
-    }
-
-    return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
-  } catch (error) {
-    console.warn(`  Geocode error for ${address}:`, error);
-    return { lat: 35.7148, lng: 139.7967 };
-  }
-}
-
 async function convertShop(raw: RawShop, index: number, total: number): Promise<Shop> {
-  console.log(`Geocoding ${index + 1}/${total}: ${raw.name}`);
+  console.log(`Converting ${index + 1}/${total}: ${raw.name}`);
 
-  const { lat, lng } = await geocode(raw.address);
-  await sleep(SLEEP_MS);
+  const lat = raw.lat ?? FALLBACK_LAT;
+  const lng = raw.lng ?? FALLBACK_LNG;
 
-  let stations = parseAccessText(raw.accessText);
+  const stations = parseAccessText(raw.accessText);
 
   if (stations.length === 0) {
     const stationNames = matchStation(raw.station);
