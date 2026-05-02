@@ -22,12 +22,20 @@ jobs:
       - run: npm ci
 
       - name: Run scrape
-        run: npm run scrape
+        id: scrape
+        run: |
+          npm run scrape 2>&1 | tee scrape-log.txt
+          echo "scrape_exit=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
 
       - name: Run convert
-        run: npm run convert
+        id: convert
+        if: success()
+        run: |
+          npm run convert 2>&1 | tee convert-log.txt
+          echo "convert_exit=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changed
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -35,3 +43,33 @@ jobs:
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: update shop data ($(date +%Y-%m-%d))"
           git push
+
+      - name: Report results
+        if: always()
+        run: |
+          echo "## Scraping Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f scrape-log.txt ]; then
+            SHOP_COUNT=$(grep -o 'Wrote [0-9]* shops' scrape-log.txt | grep -o '[0-9]*' || echo "0")
+            echo "- **Scraped shops**: ${SHOP_COUNT}" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -f convert-log.txt ]; then
+            CONVERT_COUNT=$(grep -o 'Wrote [0-9]* shops' convert-log.txt | grep -o '[0-9]*' || echo "0")
+            echo "- **Converted shops**: ${CONVERT_COUNT}" >> $GITHUB_STEP_SUMMARY
+            WARNINGS=$(grep -c '⚠' convert-log.txt || echo "0")
+            echo "- **Shops needing manual data**: ${WARNINGS}" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ "${{ steps.scrape.outcome }}" = "failure" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### :x: Scrape failed" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -20 scrape-log.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ "${{ steps.convert.outcome }}" = "failure" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### :x: Convert failed" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -20 convert-log.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi

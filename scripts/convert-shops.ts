@@ -163,8 +163,15 @@ async function main(): Promise<void> {
   console.log(`Converting ${filtered.length} shops...\n`);
 
   const shops: Shop[] = [];
+  const seenNames = new Set<string>();
+
   for (let i = 0; i < filtered.length; i++) {
     const shop = await convertShop(filtered[i], i, filtered.length);
+    if (seenNames.has(shop.name)) {
+      console.log(`  Skipping duplicate: ${shop.name}`);
+      continue;
+    }
+    seenNames.add(shop.name);
     shops.push(shop);
   }
 

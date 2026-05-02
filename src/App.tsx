@@ -9,10 +9,10 @@ import { FilterBar } from "./components/FilterBar";
 import { ShopMap } from "./components/ShopMap";
 import { ShopList } from "./components/ShopList";
 import shopsData from "../data/shops.json";
-import type { Shop } from "./types/shop";
+import { validateShops } from "./types/shop";
 import styles from "./App.module.css";
 
-const shops: Shop[] = shopsData as Shop[];
+const shops = validateShops(shopsData);
 
 export const App: Component = () => {
   const [selectedStation, setSelectedStation] = createSignal<StationName | null>(null);
