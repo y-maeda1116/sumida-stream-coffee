@@ -108,7 +108,7 @@ async function convertShop(raw: RawShop, index: number, total: number): Promise<
   const lat = raw.lat ?? FALLBACK_LAT;
   const lng = raw.lng ?? FALLBACK_LNG;
 
-  const stations = parseAccessText(raw.accessText);
+  let stations = parseAccessText(raw.accessText);
 
   if (stations.length === 0) {
     const stationNames = matchStation(raw.station);
