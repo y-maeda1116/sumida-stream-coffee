@@ -26,7 +26,11 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 5
+        "exitElevatorWalkMin": 2
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 6
       }
     ],
     "brewMethods": [],
@@ -45,7 +49,7 @@
     "address": "東京都台東区寿2-2-9 agora place 1F",
     "stations": [
       {
-        "station": "浅草",
+        "station": "田原町",
         "exitElevatorWalkMin": 1
       }
     ],
@@ -67,6 +71,10 @@
       {
         "station": "浅草",
         "exitElevatorWalkMin": 1
+      },
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 4
       }
     ],
     "brewMethods": [],
@@ -85,8 +93,12 @@
     "address": "東京都台東区雷門1-15-1",
     "stations": [
       {
-        "station": "浅草",
+        "station": "田原町",
         "exitElevatorWalkMin": 3
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -105,8 +117,12 @@
     "address": "東京都台東区西浅草2-4-1 福島ビル1F",
     "stations": [
       {
+        "station": "田原町",
+        "exitElevatorWalkMin": 7
+      },
+      {
         "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "exitElevatorWalkMin": 7
       }
     ],
     "brewMethods": [],
@@ -125,8 +141,8 @@
     "address": "東京都台東区浅草1-8-6",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "station": "田原町",
+        "exitElevatorWalkMin": 4
       }
     ],
     "brewMethods": [],
@@ -166,7 +182,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 1
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -206,7 +222,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 4
+        "exitElevatorWalkMin": 8
       }
     ],
     "brewMethods": [],
@@ -226,7 +242,11 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "exitElevatorWalkMin": 9
+      },
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 4
       }
     ],
     "brewMethods": [],
@@ -246,7 +266,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 4
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -265,8 +285,12 @@
     "address": "東京都台東区寿4-12-6",
     "stations": [
       {
-        "station": "浅草",
+        "station": "田原町",
         "exitElevatorWalkMin": 4
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -366,7 +390,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 3
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -407,6 +431,10 @@
       {
         "station": "浅草",
         "exitElevatorWalkMin": 1
+      },
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 6
       }
     ],
     "brewMethods": [],
@@ -425,8 +453,8 @@
     "address": "東京都台東区西浅草1丁目7-16",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "station": "田原町",
+        "exitElevatorWalkMin": 3
       }
     ],
     "brewMethods": [],
@@ -444,6 +472,10 @@
     "name": "Bar Goccia",
     "address": "東京都台東区浅草2-11-5 第二宏和ビル 4F・5F",
     "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 5
+      },
       {
         "station": "浅草",
         "exitElevatorWalkMin": 1
@@ -506,7 +538,11 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 4
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "本所吾妻橋",
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -526,7 +562,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 10
+        "exitElevatorWalkMin": 7
       }
     ],
     "brewMethods": [],
@@ -646,7 +682,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 3
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -665,8 +701,8 @@
     "address": "東京都台東区雷門1-6-5 布施不動産南ﾋﾞﾙ1･2F",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "station": "田原町",
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -705,8 +741,8 @@
     "address": "東京都台東区寿4-6-11",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "station": "田原町",
+        "exitElevatorWalkMin": 3
       }
     ],
     "brewMethods": [],
@@ -725,8 +761,8 @@
     "address": "東京都台東区西浅草1-1-16 カーサ田原町",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "station": "田原町",
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -946,6 +982,10 @@
     "stations": [
       {
         "station": "浅草",
+        "exitElevatorWalkMin": 1
+      },
+      {
+        "station": "田原町",
         "exitElevatorWalkMin": 10
       }
     ],
@@ -1086,7 +1126,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 4
+        "exitElevatorWalkMin": 8
       }
     ],
     "brewMethods": [],
@@ -1206,7 +1246,11 @@
     "stations": [
       {
         "station": "蔵前",
-        "exitElevatorWalkMin": 6
+        "exitElevatorWalkMin": 2
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -1267,6 +1311,10 @@
       {
         "station": "浅草橋",
         "exitElevatorWalkMin": 4
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 9
       }
     ],
     "brewMethods": [],
@@ -1445,12 +1493,12 @@
     "address": "東京都墨田区本所1-8-8",
     "stations": [
       {
-        "station": "浅草",
+        "station": "蔵前",
         "exitElevatorWalkMin": 7
       },
       {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 8
+        "station": "浅草",
+        "exitElevatorWalkMin": 10
       }
     ],
     "brewMethods": [],
@@ -1469,8 +1517,12 @@
     "address": "東京都台東区蔵前1-7-4 Kビル 1F",
     "stations": [
       {
-        "station": "浅草橋",
+        "station": "浅草",
         "exitElevatorWalkMin": 3
+      },
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 7
       },
       {
         "station": "蔵前",
@@ -1535,6 +1587,10 @@
       {
         "station": "浅草橋",
         "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 10
       }
     ],
     "brewMethods": [],
@@ -1597,8 +1653,8 @@
     "address": "東京都台東区寿1-17-12 レモンビル 1F",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "station": "田原町",
+        "exitElevatorWalkMin": 4
       }
     ],
     "brewMethods": [],
@@ -1640,6 +1696,10 @@
     "name": "CAFE コタージュ",
     "address": "東京都台東区寿1-2-1 浅草寿町ダイヤモンドマンション 1F",
     "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 4
+      },
       {
         "station": "蔵前",
         "exitElevatorWalkMin": 5
@@ -1901,12 +1961,8 @@
     "address": "東京都台東区柳橋1-28-8",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
-      },
-      {
         "station": "浅草橋",
-        "exitElevatorWalkMin": 0
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -1969,8 +2025,12 @@
     "address": "東京都台東区蔵前4-14-11 ウグイスビル 1F",
     "stations": [
       {
-        "station": "浅草橋",
+        "station": "浅草",
         "exitElevatorWalkMin": 2
+      },
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 10
       },
       {
         "station": "蔵前",
@@ -2099,6 +2159,14 @@
       {
         "station": "浅草",
         "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
       }
     ],
     "brewMethods": [],
@@ -2261,8 +2329,8 @@
     "address": "東京都台東区寿3-19-2",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "station": "田原町",
+        "exitElevatorWalkMin": 4
       }
     ],
     "brewMethods": [],
