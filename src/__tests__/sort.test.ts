@@ -20,6 +20,7 @@ const mockShops: Shop[] = [
     hasWifi: false,
     lat: 35.7,
     lng: 139.8,
+    sourceUrl: "https://tabelog.com/example/a/",
   },
   {
     id: "b",
@@ -38,6 +39,7 @@ const mockShops: Shop[] = [
     hasWifi: false,
     lat: 35.71,
     lng: 139.81,
+    sourceUrl: "https://tabelog.com/example/b/",
   },
   {
     id: "c",
@@ -56,6 +58,7 @@ const mockShops: Shop[] = [
     hasWifi: false,
     lat: 35.69,
     lng: 139.79,
+    sourceUrl: "https://tabelog.com/example/c/",
   },
 ];
 

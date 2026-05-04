@@ -28,7 +28,7 @@ export const ShopCard: Component<ShopCardProps> = (props) => {
     ];
 
   return (
-    <div class={styles.card}>
+    <a class={styles.card} href={props.shop.sourceUrl} target="_blank" rel="noopener noreferrer">
       <h3 class={styles.name}>{props.shop.name}</h3>
       <p class={styles.address}>{props.shop.address}</p>
 
@@ -63,6 +63,6 @@ export const ShopCard: Component<ShopCardProps> = (props) => {
           {STROLLER_LABELS[props.shop.babyStrollerAccess]}
         </span>
       </div>
-    </div>
+    </a>
   );
 };

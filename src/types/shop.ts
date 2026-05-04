@@ -44,6 +44,7 @@ export const ShopSchema = z.object({
   hasWifi: z.boolean(),
   lat: z.number().min(-90).max(90),
   lng: z.number().min(-180).max(180),
+  sourceUrl: z.string().url(),
 });
 
 export const ShopsArraySchema = z.array(ShopSchema);
@@ -67,6 +68,7 @@ export interface Shop {
   hasWifi: boolean;
   lat: number;
   lng: number;
+  sourceUrl: string;
 }
 
 export interface FilterState {

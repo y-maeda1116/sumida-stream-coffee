@@ -47,6 +47,7 @@ interface Shop {
   hasWifi: boolean;
   lat: number;
   lng: number;
+  sourceUrl: string;
 }
 
 const FALLBACK_LAT = 35.7148;
@@ -155,6 +156,7 @@ async function convertShop(raw: RawShop, index: number, total: number): Promise<
     hasWifi: raw.hasWifi ?? false,
     lat,
     lng,
+    sourceUrl: raw.sourceUrl,
   };
 }
 
