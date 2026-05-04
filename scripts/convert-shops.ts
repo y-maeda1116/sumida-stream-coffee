@@ -29,6 +29,7 @@ interface RawShop {
   hasPower: boolean | null;
   lat: number | null;
   lng: number | null;
+  genre: string;
   sourceUrl: string;
 }
 
@@ -175,11 +176,33 @@ function matchStation(rawStation: string): string[] {
   return [...new Set(matched)];
 }
 
+const CAFE_GENRE_KEYWORDS = ["カフェ", "喫茶", "コーヒー", "珈琲"];
+
+function isCafeGenre(genre: string): boolean {
+  return CAFE_GENRE_KEYWORDS.some((keyword) => genre.includes(keyword));
+}
+
+function matchesTargetStation(raw: RawShop): boolean {
+  if (parseAccessText(raw.accessText).length > 0) return true;
+  return matchStation(raw.station).length > 0;
+}
+
 async function main(): Promise<void> {
   const raw: RawShop[] = JSON.parse(readFileSync(INPUT_PATH, "utf-8"));
   const ignoreIds = loadIgnoreList();
 
-  const filtered = raw.filter((s) => !ignoreIds.has(s.id));
+  const filtered = raw.filter((s) => {
+    if (ignoreIds.has(s.id)) return false;
+    if (!isCafeGenre(s.genre)) {
+      console.log(`  Skipping non-cafe: ${s.name} (${s.genre})`);
+      return false;
+    }
+    if (!matchesTargetStation(s)) {
+      console.log(`  Skipping out-of-area: ${s.name} (${s.station})`);
+      return false;
+    }
+    return true;
+  });
   if (ignoreIds.size > 0) {
     console.log(`Ignoring ${raw.length - filtered.length} shops from ignore list\n`);
   }

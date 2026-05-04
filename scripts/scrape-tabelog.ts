@@ -32,6 +32,7 @@ interface RawShop {
   hasPower: boolean | null;
   lat: number | null;
   lng: number | null;
+  genre: string;
   sourceUrl: string;
 }
 
@@ -161,6 +162,12 @@ function extractFeatures(html: string): {
   };
 }
 
+function extractGenre(html: string): string {
+  const match = html.match(/<th>ジャンル<\/th>\s*<td>([\s\S]*?)<\/td>/);
+  if (!match) return "";
+  return match[1].replace(/<[^>]*>/g, "").trim();
+}
+
 function extractDetail(html: string, url: string): RawShop {
   const name = extractName(html);
   const address = extractAddress(html);
@@ -168,6 +175,7 @@ function extractDetail(html: string, url: string): RawShop {
   const { station, accessText } = extractAccessInfo(html);
   const { hasWifi, hasPower } = extractFeatures(html);
   const { lat, lng } = extractLatLng(html);
+  const genre = extractGenre(html);
 
   const id = `tabelog-${url.split("/").filter(Boolean).pop() || Date.now()}`;
 
@@ -182,6 +190,7 @@ function extractDetail(html: string, url: string): RawShop {
     hasPower,
     lat,
     lng,
+    genre,
     sourceUrl: url,
   };
 }

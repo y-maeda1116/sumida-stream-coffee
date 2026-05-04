@@ -10,6 +10,7 @@
     "hasPower": true,
     "lat": 35.710593937901045,
     "lng": 139.79481618349934,
+    "genre": "カフェ、ケーキ、ハンバーガー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13275994/"
   },
   {
@@ -23,6 +24,7 @@
     "hasPower": true,
     "lat": 35.70899500870618,
     "lng": 139.7909237746477,
+    "genre": "ダイニングバー、カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13278718/"
   },
   {
@@ -36,6 +38,7 @@
     "hasPower": true,
     "lat": 35.70755318296081,
     "lng": 139.79548342377703,
+    "genre": "カフェ、イタリアン",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13293734/"
   },
   {
@@ -49,6 +52,7 @@
     "hasPower": null,
     "lat": 35.71088143790036,
     "lng": 139.79325728350335,
+    "genre": "日本料理、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13023879/"
   },
   {
@@ -62,6 +66,7 @@
     "hasPower": null,
     "lat": 35.711932109090675,
     "lng": 139.79229297848877,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13302890/"
   },
   {
@@ -75,6 +80,7 @@
     "hasPower": null,
     "lat": 35.712270537898206,
     "lng": 139.78927408352018,
+    "genre": "甘味処、かき氷、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13092157/"
   },
   {
@@ -88,6 +94,7 @@
     "hasPower": null,
     "lat": 35.71141983790005,
     "lng": 139.7933698835087,
+    "genre": "甘味処、かき氷",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13033990/"
   },
   {
@@ -101,6 +108,7 @@
     "hasPower": true,
     "lat": 35.710623078383776,
     "lng": 139.7973180926793,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13302377/"
   },
   {
@@ -114,6 +122,7 @@
     "hasPower": true,
     "lat": 35.71075586454739,
     "lng": 139.79336671206198,
+    "genre": "カフェ、甘味処、和菓子",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13316025/"
   },
   {
@@ -127,6 +136,7 @@
     "hasPower": true,
     "lat": 35.71485119761546,
     "lng": 139.7951120522856,
+    "genre": "甘味処、カレーうどん、かき氷",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13296439/"
   },
   {
@@ -140,6 +150,7 @@
     "hasPower": null,
     "lat": 35.71751374742625,
     "lng": 139.79368259456945,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13317533/"
   },
   {
@@ -153,6 +164,7 @@
     "hasPower": true,
     "lat": 35.711520737900756,
     "lng": 139.79579818350803,
+    "genre": "カフェ、洋菓子、喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13257967/"
   },
   {
@@ -166,6 +178,7 @@
     "hasPower": null,
     "lat": 35.70997582870582,
     "lng": 139.79174944465703,
+    "genre": "ハンバーガー、カフェ、喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13127072/"
   },
   {
@@ -179,6 +192,7 @@
     "hasPower": null,
     "lat": 35.713079418706556,
     "lng": 139.80023688468242,
+    "genre": "スイーツ、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13299319/"
   },
   {
@@ -192,6 +206,7 @@
     "hasPower": null,
     "lat": 35.714597137898544,
     "lng": 139.79495948353969,
+    "genre": "和菓子、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13267295/"
   },
   {
@@ -205,6 +220,7 @@
     "hasPower": null,
     "lat": 35.716352548703426,
     "lng": 139.7969476547178,
+    "genre": "ジェラート・アイスクリーム、ティースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13153620/"
   },
   {
@@ -218,6 +234,7 @@
     "hasPower": null,
     "lat": 35.71069372870516,
     "lng": 139.79107954466474,
+    "genre": "パブ、バー、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13263940/"
   },
   {
@@ -231,6 +248,7 @@
     "hasPower": null,
     "lat": 35.712359918706774,
     "lng": 139.79948398467567,
+    "genre": "パン、カフェ、ベーグル",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13180700/"
   },
   {
@@ -244,6 +262,7 @@
     "hasPower": null,
     "lat": 35.7202921687004,
     "lng": 139.79527893475878,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13087498/"
   },
   {
@@ -257,6 +276,7 @@
     "hasPower": null,
     "lat": 35.71341535870524,
     "lng": 139.79676241468826,
+    "genre": "甘味処、ジェラート・アイスクリーム、喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13091698/"
   },
   {
@@ -270,6 +290,7 @@
     "hasPower": null,
     "lat": 35.708461148706995,
     "lng": 139.7923999046413,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13272672/"
   },
   {
@@ -283,6 +304,7 @@
     "hasPower": true,
     "lat": 35.716429138702836,
     "lng": 139.7952373347198,
+    "genre": "カフェ、ハワイ料理",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13258208/"
   },
   {
@@ -296,6 +318,7 @@
     "hasPower": null,
     "lat": 35.71126450870865,
     "lng": 139.80316991466202,
+    "genre": "甘味処、和菓子",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13247919/"
   },
   {
@@ -309,6 +332,7 @@
     "hasPower": null,
     "lat": 35.716043048702595,
     "lng": 139.793680034717,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13169574/"
   },
   {
@@ -322,6 +346,7 @@
     "hasPower": null,
     "lat": 35.70844263790216,
     "lng": 139.7940390834782,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13267302/"
   },
   {
@@ -335,6 +360,7 @@
     "hasPower": null,
     "lat": 35.708453338706725,
     "lng": 139.7915477246418,
+    "genre": "せんべい、洋菓子、甘味処",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13194772/"
   },
   {
@@ -348,6 +374,7 @@
     "hasPower": null,
     "lat": 35.71971623789643,
     "lng": 139.79849188358892,
+    "genre": "カフェ、ケーキ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13152952/"
   },
   {
@@ -361,6 +388,7 @@
     "hasPower": null,
     "lat": 35.705542589188624,
     "lng": 139.79719313197143,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13293405/"
   },
   {
@@ -374,6 +402,7 @@
     "hasPower": null,
     "lat": 35.712694537900305,
     "lng": 139.79670028351924,
+    "genre": "和菓子、甘味処、スイーツ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13230828/"
   },
   {
@@ -387,6 +416,7 @@
     "hasPower": null,
     "lat": 35.712454516496074,
     "lng": 139.79686472151477,
+    "genre": "カフェ、ジェラート・アイスクリーム、かき氷",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13308821/"
   },
   {
@@ -400,6 +430,7 @@
     "hasPower": null,
     "lat": 35.71481800870307,
     "lng": 139.79274764470526,
+    "genre": "たい焼き・大判焼き、甘味処、かき氷",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13120735/"
   },
   {
@@ -413,6 +444,7 @@
     "hasPower": null,
     "lat": 35.70963171870578,
     "lng": 139.79090450465415,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13059852/"
   },
   {
@@ -426,6 +458,7 @@
     "hasPower": null,
     "lat": 35.7148076379006,
     "lng": 139.80186388353698,
+    "genre": "ダイニングバー、カフェ、居酒屋",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13208331/"
   },
   {
@@ -439,6 +472,7 @@
     "hasPower": null,
     "lat": 35.71031218871031,
     "lng": 139.80651788465005,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13251908/"
   },
   {
@@ -452,6 +486,7 @@
     "hasPower": null,
     "lat": 35.71295643790045,
     "lng": 139.7977117835212,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13204390/"
   },
   {
@@ -465,6 +500,7 @@
     "hasPower": null,
     "lat": 35.71209543790019,
     "lng": 139.7951146835143,
+    "genre": "喫茶店、カフェ、洋食",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13094897/"
   },
   {
@@ -478,6 +514,7 @@
     "hasPower": true,
     "lat": 35.71741024870253,
     "lng": 139.79621983472902,
+    "genre": "喫茶店、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13231577/"
   },
   {
@@ -491,6 +528,7 @@
     "hasPower": null,
     "lat": 35.711348178706345,
     "lng": 139.79611264466786,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13236134/"
   },
   {
@@ -504,6 +542,7 @@
     "hasPower": null,
     "lat": 35.717251978702265,
     "lng": 139.7950683047282,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13220385/"
   },
   {
@@ -517,6 +556,7 @@
     "hasPower": null,
     "lat": 35.712176137899945,
     "lng": 139.79456418351552,
+    "genre": "喫茶店、サンドイッチ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13022134/"
   },
   {
@@ -530,6 +570,7 @@
     "hasPower": null,
     "lat": 35.71264626805446,
     "lng": 139.79686311009115,
+    "genre": "ソフトクリーム、かき氷、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13263847/"
   },
   {
@@ -543,6 +584,7 @@
     "hasPower": null,
     "lat": 35.71303192694537,
     "lng": 139.78923789227494,
+    "genre": "カフェ、オーガニック",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13242447/"
   },
   {
@@ -556,6 +598,7 @@
     "hasPower": null,
     "lat": 35.71552298870263,
     "lng": 139.79279874471231,
+    "genre": "おにぎり、日本料理、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13295708/"
   },
   {
@@ -569,6 +612,7 @@
     "hasPower": null,
     "lat": 35.710775637902096,
     "lng": 139.79849088349863,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13116196/"
   },
   {
@@ -582,6 +626,7 @@
     "hasPower": null,
     "lat": 35.710308838706084,
     "lng": 139.7932081146594,
+    "genre": "カフェ、パスタ、ケーキ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13160466/"
   },
   {
@@ -595,6 +640,7 @@
     "hasPower": true,
     "lat": 35.71011741870685,
     "lng": 139.795232034656,
+    "genre": "食堂、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13215329/"
   },
   {
@@ -608,6 +654,7 @@
     "hasPower": null,
     "lat": 35.71527261385994,
     "lng": 139.79457623464975,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13297653/"
   },
   {
@@ -621,6 +668,7 @@
     "hasPower": null,
     "lat": 35.71539753789815,
     "lng": 139.7953301835475,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13231136/"
   },
   {
@@ -634,6 +682,7 @@
     "hasPower": null,
     "lat": 35.71153440823029,
     "lng": 139.79489915772257,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13016824/"
   },
   {
@@ -647,6 +696,7 @@
     "hasPower": true,
     "lat": 35.717368898701984,
     "lng": 139.79442303472985,
+    "genre": "ハンバーガー、カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13215909/"
   },
   {
@@ -660,6 +710,7 @@
     "hasPower": null,
     "lat": 35.711616798706594,
     "lng": 139.79745203466962,
+    "genre": "洋食、ハンバーグ、喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13010525/"
   },
   {
@@ -673,6 +724,7 @@
     "hasPower": null,
     "lat": 35.71211181870533,
     "lng": 139.7944436546767,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13312816/"
   },
   {
@@ -686,6 +738,7 @@
     "hasPower": true,
     "lat": 35.71511512870165,
     "lng": 139.78886012471096,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13210757/"
   },
   {
@@ -699,6 +752,7 @@
     "hasPower": null,
     "lat": 35.71414543789998,
     "lng": 139.7985657835326,
+    "genre": "甘味処、和菓子",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13183530/"
   },
   {
@@ -712,6 +766,7 @@
     "hasPower": null,
     "lat": 35.71053380870683,
     "lng": 139.79601569465967,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13075895/"
   },
   {
@@ -725,6 +780,7 @@
     "hasPower": null,
     "lat": 35.718126408700506,
     "lng": 139.79128003473969,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13206038/"
   },
   {
@@ -738,6 +794,7 @@
     "hasPower": null,
     "lat": 35.7118216587061,
     "lng": 139.79628597467251,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13075871/"
   },
   {
@@ -751,6 +808,7 @@
     "hasPower": null,
     "lat": 35.71003323870711,
     "lng": 139.79590458465472,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13301874/"
   },
   {
@@ -764,6 +822,7 @@
     "hasPower": null,
     "lat": 35.714648878703734,
     "lng": 139.7944860847023,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13075979/"
   },
   {
@@ -777,6 +836,7 @@
     "hasPower": null,
     "lat": 35.715654038702816,
     "lng": 139.7935192847136,
+    "genre": "喫茶店、カレー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13079549/"
   },
   {
@@ -790,6 +850,7 @@
     "hasPower": true,
     "lat": 35.70526393790437,
     "lng": 139.79463608344565,
+    "genre": "カフェ、ダイニングバー、イタリアン",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13274678/"
   },
   {
@@ -803,6 +864,7 @@
     "hasPower": null,
     "lat": 35.69666563790666,
     "lng": 139.78475188336574,
+    "genre": "カフェ、ダイニングバー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13188117/"
   },
   {
@@ -816,6 +878,7 @@
     "hasPower": true,
     "lat": 35.699638437904845,
     "lng": 139.78491358339562,
+    "genre": "ギリシャ料理、ヨーロッパ料理、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13223257/"
   },
   {
@@ -829,6 +892,7 @@
     "hasPower": null,
     "lat": 35.697980937907026,
     "lng": 139.7884647833764,
+    "genre": "カレー、ダイニングバー、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13230199/"
   },
   {
@@ -842,6 +906,7 @@
     "hasPower": null,
     "lat": 35.706987348707536,
     "lng": 139.79117002462723,
+    "genre": "カフェ、サンドイッチ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13212182/"
   },
   {
@@ -855,6 +920,7 @@
     "hasPower": null,
     "lat": 35.698051537905876,
     "lng": 139.78498948337955,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13229923/"
   },
   {
@@ -868,6 +934,7 @@
     "hasPower": null,
     "lat": 35.70545409015235,
     "lng": 139.791815736205,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13270107/"
   },
   {
@@ -881,6 +948,7 @@
     "hasPower": null,
     "lat": 35.69989532871135,
     "lng": 139.78897207455717,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13250948/"
   },
   {
@@ -894,6 +962,7 @@
     "hasPower": null,
     "lat": 35.697518637905894,
     "lng": 139.78397748337488,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13046919/"
   },
   {
@@ -907,6 +976,7 @@
     "hasPower": null,
     "lat": 35.69713253871198,
     "lng": 139.7854700445317,
+    "genre": "カレー、喫茶店、パスタ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13031461/"
   },
   {
@@ -920,6 +990,7 @@
     "hasPower": null,
     "lat": 35.702951737904634,
     "lng": 139.79086998342493,
+    "genre": "カフェ、ダイニングバー、海鮮",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13261635/"
   },
   {
@@ -933,6 +1004,7 @@
     "hasPower": null,
     "lat": 35.7014044387102,
     "lng": 139.7883813845728,
+    "genre": "カフェ、スイーツ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13182632/"
   },
   {
@@ -946,6 +1018,7 @@
     "hasPower": null,
     "lat": 35.69808593790578,
     "lng": 139.78475958338007,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13277003/"
   },
   {
@@ -959,6 +1032,7 @@
     "hasPower": null,
     "lat": 35.703823068708665,
     "lng": 139.78841297459724,
+    "genre": "洋菓子、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13309116/"
   },
   {
@@ -972,6 +1046,7 @@
     "hasPower": null,
     "lat": 35.70630853790152,
     "lng": 139.78777478346103,
+    "genre": "喫茶店、カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13124625/"
   },
   {
@@ -985,6 +1060,7 @@
     "hasPower": null,
     "lat": 35.7050266487085,
     "lng": 139.79025738460808,
+    "genre": "カフェ、洋菓子",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13174229/"
   },
   {
@@ -998,6 +1074,7 @@
     "hasPower": null,
     "lat": 35.69732186942112,
     "lng": 139.78508269749693,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13303627/"
   },
   {
@@ -1011,6 +1088,7 @@
     "hasPower": null,
     "lat": 35.7046607687093,
     "lng": 139.7920759346031,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13298861/"
   },
   {
@@ -1024,6 +1102,7 @@
     "hasPower": null,
     "lat": 35.70271392871238,
     "lng": 139.79784139457942,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13230333/"
   },
   {
@@ -1037,6 +1116,7 @@
     "hasPower": null,
     "lat": 35.70057819870965,
     "lng": 139.78501145456684,
+    "genre": "カフェ、喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13233531/"
   },
   {
@@ -1050,6 +1130,7 @@
     "hasPower": null,
     "lat": 35.70542475653308,
     "lng": 139.7933298471312,
+    "genre": "喫茶店、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13048956/"
   },
   {
@@ -1063,6 +1144,7 @@
     "hasPower": null,
     "lat": 35.70230793871018,
     "lng": 139.79013668458074,
+    "genre": "コーヒースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13316089/"
   },
   {
@@ -1076,6 +1158,7 @@
     "hasPower": null,
     "lat": 35.70523903782702,
     "lng": 139.79121054896976,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13294874/"
   },
   {
@@ -1089,6 +1172,7 @@
     "hasPower": null,
     "lat": 35.70408753790355,
     "lng": 139.7897281834372,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13215459/"
   },
   {
@@ -1102,6 +1186,7 @@
     "hasPower": null,
     "lat": 35.70174855870752,
     "lng": 139.7806548845817,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13167156/"
   },
   {
@@ -1115,6 +1200,7 @@
     "hasPower": null,
     "lat": null,
     "lng": null,
+    "genre": "カフェ、パブ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13060131/"
   },
   {
@@ -1128,6 +1214,7 @@
     "hasPower": null,
     "lat": 35.706988142675044,
     "lng": 139.7915423122164,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13268342/"
   },
   {
@@ -1141,6 +1228,7 @@
     "hasPower": null,
     "lat": 35.700562538709896,
     "lng": 139.78575045456614,
+    "genre": "カフェ、カレー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13231565/"
   },
   {
@@ -1154,6 +1242,7 @@
     "hasPower": null,
     "lat": 35.70660739870775,
     "lng": 139.79107427462347,
+    "genre": "ケーキ、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13161593/"
   },
   {
@@ -1167,6 +1256,7 @@
     "hasPower": null,
     "lat": 35.70206012870911,
     "lng": 139.78625690458094,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13285092/"
   },
   {
@@ -1180,6 +1270,7 @@
     "hasPower": null,
     "lat": 35.700694758709645,
     "lng": 139.78522669456785,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13089062/"
   },
   {
@@ -1193,6 +1284,7 @@
     "hasPower": true,
     "lat": 35.704702898708604,
     "lng": 139.78996750460502,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13227698/"
   },
   {
@@ -1206,6 +1298,7 @@
     "hasPower": null,
     "lat": 35.697773388712,
     "lng": 139.78679746453724,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13039853/"
   },
   {
@@ -1219,6 +1312,7 @@
     "hasPower": null,
     "lat": 35.698461708710575,
     "lng": 139.7836893245464,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13268121/"
   },
   {
@@ -1232,6 +1326,7 @@
     "hasPower": null,
     "lat": 35.70569396870809,
     "lng": 139.7903162846148,
+    "genre": "パン、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13174653/"
   },
   {
@@ -1245,6 +1340,7 @@
     "hasPower": null,
     "lat": 35.70214243790498,
     "lng": 139.7903689834171,
+    "genre": "洋菓子、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13281428/"
   },
   {
@@ -1258,6 +1354,7 @@
     "hasPower": null,
     "lat": 35.70179023871009,
     "lng": 139.78883328457638,
+    "genre": "カフェ、パン",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13315261/"
   },
   {
@@ -1271,6 +1368,7 @@
     "hasPower": null,
     "lat": 35.70569533870809,
     "lng": 139.7903214846148,
+    "genre": "ティースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13292542/"
   },
   {
@@ -1284,6 +1382,7 @@
     "hasPower": true,
     "lat": 35.703894537904844,
     "lng": 139.79340398343265,
+    "genre": "カフェ、バー、ダイニングバー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13146889/"
   },
   {
@@ -1297,6 +1396,7 @@
     "hasPower": null,
     "lat": 35.70206713790387,
     "lng": 139.78668378341894,
+    "genre": "カフェ、創作料理",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13265799/"
   },
   {
@@ -1310,6 +1410,7 @@
     "hasPower": null,
     "lat": 35.70753727101512,
     "lng": 139.79119214962472,
+    "genre": "カフェ、台湾料理、沖縄料理",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13279280/"
   },
   {
@@ -1323,6 +1424,7 @@
     "hasPower": null,
     "lat": 35.70312590870847,
     "lng": 139.7864078645916,
+    "genre": "居酒屋、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13202238/"
   },
   {
@@ -1336,6 +1438,7 @@
     "hasPower": null,
     "lat": 35.706329359587976,
     "lng": 139.79204685647807,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13289305/"
   },
   {
@@ -1349,6 +1452,7 @@
     "hasPower": null,
     "lat": 35.70766143790162,
     "lng": 139.79080818347254,
+    "genre": "コーヒースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13236952/"
   },
   {
@@ -1362,6 +1466,7 @@
     "hasPower": null,
     "lat": 35.700394318057114,
     "lng": 139.785131592939,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13207537/"
   },
   {
@@ -1375,6 +1480,7 @@
     "hasPower": null,
     "lat": 35.697429748713,
     "lng": 139.78925482453204,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13111381/"
   },
   {
@@ -1388,6 +1494,7 @@
     "hasPower": null,
     "lat": 35.70291556871019,
     "lng": 139.791359354586,
+    "genre": "カフェ、コーヒースタンド、スイーツ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13288445/"
   },
   {
@@ -1401,6 +1508,7 @@
     "hasPower": null,
     "lat": 35.70586868446287,
     "lng": 139.7930724549572,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13298549/"
   },
   {
@@ -1414,6 +1522,7 @@
     "hasPower": true,
     "lat": 35.69794499871178,
     "lng": 139.78643361453925,
+    "genre": "カフェ、パン、スイーツ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13142701/"
   },
   {
@@ -1427,6 +1536,7 @@
     "hasPower": null,
     "lat": 35.69977186870917,
     "lng": 139.7818804445609,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13296003/"
   },
   {
@@ -1440,6 +1550,7 @@
     "hasPower": null,
     "lat": 35.69949462693887,
     "lng": 139.7814030551282,
+    "genre": "弁当、サラダ、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13283489/"
   },
   {
@@ -1453,6 +1564,7 @@
     "hasPower": null,
     "lat": 35.69940221871028,
     "lng": 139.7846770845552,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13095958/"
   },
   {
@@ -1466,6 +1578,7 @@
     "hasPower": null,
     "lat": 35.698378659058456,
     "lng": 139.782769381925,
+    "genre": "サンドイッチ、喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13053390/"
   },
   {
@@ -1479,6 +1592,7 @@
     "hasPower": true,
     "lat": 35.70349017870985,
     "lng": 139.79144290459172,
+    "genre": "カフェ、ダイニングバー、サンドイッチ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13219340/"
   },
   {
@@ -1492,6 +1606,7 @@
     "hasPower": null,
     "lat": 35.703615459343666,
     "lng": 139.79068098375546,
+    "genre": "カフェ、洋菓子",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13294526/"
   },
   {
@@ -1505,6 +1620,7 @@
     "hasPower": null,
     "lat": 35.698802688710906,
     "lng": 139.7854089745486,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13087661/"
   },
   {
@@ -1518,6 +1634,7 @@
     "hasPower": null,
     "lat": 35.69763433790576,
     "lng": 139.78380708337616,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13108927/"
   },
   {
@@ -1531,6 +1648,7 @@
     "hasPower": null,
     "lat": 35.706355508707546,
     "lng": 139.78992037462172,
+    "genre": "喫茶店、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13016870/"
   },
   {
@@ -1544,6 +1662,7 @@
     "hasPower": null,
     "lat": 35.703669198709164,
     "lng": 139.7896332945948,
+    "genre": "チョコレート、カフェ、洋菓子",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13191976/"
   },
   {
@@ -1557,6 +1676,7 @@
     "hasPower": null,
     "lat": 35.70124717871066,
     "lng": 139.7895208145704,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13284496/"
   },
   {
@@ -1570,6 +1690,7 @@
     "hasPower": null,
     "lat": 35.69645513791611,
     "lng": 139.81393578334314,
+    "genre": "ダイニングバー、居酒屋、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13167054/"
   },
   {
@@ -1583,6 +1704,7 @@
     "hasPower": null,
     "lat": 35.697588908923336,
     "lng": 139.7922380763569,
+    "genre": "ビストロ、カフェ、ワインバー",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13253161/"
   },
   {
@@ -1596,6 +1718,7 @@
     "hasPower": true,
     "lat": 35.699197864249705,
     "lng": 139.81187829700977,
+    "genre": "イタリアン、ダイニングバー、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13316303/"
   },
   {
@@ -1609,6 +1732,7 @@
     "hasPower": null,
     "lat": 35.69516773791688,
     "lng": 139.81378868333024,
+    "genre": "インドカレー、インド料理、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13141781/"
   },
   {
@@ -1622,6 +1746,7 @@
     "hasPower": null,
     "lat": 35.694717342174535,
     "lng": 139.81591555845705,
+    "genre": "ダイニングバー、カフェ、ロシア料理",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13171256/"
   },
   {
@@ -1635,6 +1760,7 @@
     "hasPower": null,
     "lat": 35.698161151818645,
     "lng": 139.79692571625722,
+    "genre": "カフェ、ヨーロッパ料理、フレンチ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13039280/"
   },
   {
@@ -1648,6 +1774,7 @@
     "hasPower": null,
     "lat": 35.68893533792173,
     "lng": 139.81657098326534,
+    "genre": "カフェ、ダイニングバー、イタリアン",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13097642/"
   },
   {
@@ -1661,6 +1788,7 @@
     "hasPower": null,
     "lat": 35.68858759698265,
     "lng": 139.8051349197122,
+    "genre": "居酒屋、カフェ、バル",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13304796/"
   },
   {
@@ -1674,6 +1802,7 @@
     "hasPower": null,
     "lat": 35.69937193791431,
     "lng": 139.81413568337246,
+    "genre": "インド料理、インドカレー、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13274212/"
   },
   {
@@ -1687,6 +1816,7 @@
     "hasPower": null,
     "lat": 35.70057590147638,
     "lng": 139.8057245430365,
+    "genre": "喫茶店、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13316204/"
   },
   {
@@ -1700,6 +1830,7 @@
     "hasPower": true,
     "lat": 35.701459152823205,
     "lng": 139.79809518950893,
+    "genre": "カフェ、ダイニングバー、イタリアン",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13222142/"
   },
   {
@@ -1713,6 +1844,7 @@
     "hasPower": null,
     "lat": 35.68958936298399,
     "lng": 139.81585012941787,
+    "genre": "カフェ、野菜料理",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13299222/"
   },
   {
@@ -1726,6 +1858,7 @@
     "hasPower": null,
     "lat": 35.70281663791289,
     "lng": 139.81651198340558,
+    "genre": "ビストロ、イタリアン、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13222776/"
   },
   {
@@ -1739,6 +1872,7 @@
     "hasPower": null,
     "lat": 35.69647349872182,
     "lng": 139.81504285450433,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13307038/"
   },
   {
@@ -1752,6 +1886,7 @@
     "hasPower": null,
     "lat": 35.694086688720745,
     "lng": 139.80690239448592,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13275139/"
   },
   {
@@ -1765,6 +1900,7 @@
     "hasPower": null,
     "lat": 35.68617223872301,
     "lng": 139.79821750441207,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13300942/"
   },
   {
@@ -1778,6 +1914,7 @@
     "hasPower": null,
     "lat": 35.69089587871802,
     "lng": 139.79197124446415,
+    "genre": "カフェ、ベーグル",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13256200/"
   },
   {
@@ -1791,6 +1928,7 @@
     "hasPower": null,
     "lat": 35.69521116872227,
     "lng": 139.81393710449234,
+    "genre": "カフェ、パン、洋食",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13117190/"
   },
   {
@@ -1804,6 +1942,7 @@
     "hasPower": null,
     "lat": 35.696455218721475,
     "lng": 139.81393543450488,
+    "genre": "食堂、カフェ、日本料理",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13168701/"
   },
   {
@@ -1817,6 +1956,7 @@
     "hasPower": null,
     "lat": 35.69724686872002,
     "lng": 139.81094083451498,
+    "genre": "カフェ、喫茶店、ケーキ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13122979/"
   },
   {
@@ -1830,6 +1970,7 @@
     "hasPower": null,
     "lat": 35.69716247871963,
     "lng": 139.80955992451513,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13086695/"
   },
   {
@@ -1843,6 +1984,7 @@
     "hasPower": null,
     "lat": 35.69548093871515,
     "lng": 139.79211831451036,
+    "genre": "カフェ、パン、スイーツ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13142853/"
   },
   {
@@ -1856,6 +1998,7 @@
     "hasPower": null,
     "lat": 35.68805636872438,
     "lng": 139.80630343442544,
+    "genre": "カフェ、バー",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13276687/"
   },
   {
@@ -1869,6 +2012,7 @@
     "hasPower": null,
     "lat": 35.69084743791348,
     "lng": 139.7945097833001,
+    "genre": "喫茶店、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13217824/"
   },
   {
@@ -1882,6 +2026,7 @@
     "hasPower": true,
     "lat": 35.686335537923334,
     "lng": 139.81643528323917,
+    "genre": "カフェ、イタリアン、パスタ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13229615/"
   },
   {
@@ -1895,6 +2040,7 @@
     "hasPower": null,
     "lat": 35.6973088487206,
     "lng": 139.81288914451426,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13249979/"
   },
   {
@@ -1908,6 +2054,7 @@
     "hasPower": null,
     "lat": 35.696579596937084,
     "lng": 139.79364078411047,
+    "genre": "カレー、弁当、甘味処",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13208665/"
   },
   {
@@ -1921,6 +2068,7 @@
     "hasPower": null,
     "lat": 35.69547313791754,
     "lng": 139.81647348333144,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13076100/"
   },
   {
@@ -1934,6 +2082,7 @@
     "hasPower": null,
     "lat": 35.68309988873028,
     "lng": 139.8149414043693,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13088742/"
   },
   {
@@ -1947,6 +2096,7 @@
     "hasPower": true,
     "lat": 35.69457713791289,
     "lng": 139.8000552833339,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13287842/"
   },
   {
@@ -1960,6 +2110,7 @@
     "hasPower": null,
     "lat": 35.69636587872169,
     "lng": 139.81442335450365,
+    "genre": "カフェ、喫茶店、ヨーロッパ料理",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13207944/"
   },
   {
@@ -1973,6 +2124,7 @@
     "hasPower": null,
     "lat": 35.69762383872088,
     "lng": 139.8143880745164,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13155698/"
   },
   {
@@ -1986,6 +2138,7 @@
     "hasPower": null,
     "lat": 35.69008007832107,
     "lng": 139.79730300143564,
+    "genre": "コーヒースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13295453/"
   },
   {
@@ -1999,6 +2152,7 @@
     "hasPower": null,
     "lat": 35.69026213872205,
     "lng": 139.80338038444967,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13138501/"
   },
   {
@@ -2012,6 +2166,7 @@
     "hasPower": null,
     "lat": 35.69516702872216,
     "lng": 139.81352234449218,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13033559/"
   },
   {
@@ -2025,6 +2180,7 @@
     "hasPower": null,
     "lat": 35.69786795872017,
     "lng": 139.8126398745201,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13047922/"
   },
   {
@@ -2038,6 +2194,7 @@
     "hasPower": null,
     "lat": 35.68185269872947,
     "lng": 139.80989891436022,
+    "genre": "コーヒースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13140269/"
   },
   {
@@ -2051,6 +2208,7 @@
     "hasPower": null,
     "lat": 35.70121110871519,
     "lng": 139.80366687456015,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13089404/"
   },
   {
@@ -2064,6 +2222,7 @@
     "hasPower": null,
     "lat": 35.68849961732756,
     "lng": 139.8011035673387,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13299212/"
   },
   {
@@ -2077,6 +2236,7 @@
     "hasPower": null,
     "lat": 35.695415988715844,
     "lng": 139.79417516450826,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13127960/"
   },
   {
@@ -2090,6 +2250,7 @@
     "hasPower": null,
     "lat": 35.697994548717105,
     "lng": 139.80326591452794,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13296434/"
   },
   {
@@ -2103,6 +2264,7 @@
     "hasPower": null,
     "lat": 35.6946137379153,
     "lng": 139.8076824833289,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13286644/"
   },
   {
@@ -2116,6 +2278,7 @@
     "hasPower": null,
     "lat": 35.693829670517815,
     "lng": 139.8128195957016,
+    "genre": "タイ料理、カフェ、居酒屋",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13291840/"
   },
   {
@@ -2129,6 +2292,7 @@
     "hasPower": null,
     "lat": 35.69480628871613,
     "lng": 139.79384903450233,
+    "genre": "パン、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13204388/"
   },
   {
@@ -2142,6 +2306,7 @@
     "hasPower": null,
     "lat": 35.69498133791794,
     "lng": 139.81673928332626,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13124828/"
   },
   {
@@ -2155,6 +2320,7 @@
     "hasPower": null,
     "lat": 35.68481163872275,
     "lng": 139.79469618440078,
+    "genre": "カフェ、ジェラート・アイスクリーム、ティースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13300910/"
   },
   {
@@ -2168,6 +2334,7 @@
     "hasPower": null,
     "lat": 35.70177483791289,
     "lng": 139.8144861833965,
+    "genre": "カフェ、ケーキ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13225581/"
   },
   {
@@ -2181,6 +2348,7 @@
     "hasPower": null,
     "lat": 35.7002876887196,
     "lng": 139.8156860545424,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13220763/"
   },
   {
@@ -2194,6 +2362,7 @@
     "hasPower": null,
     "lat": 35.69538100871575,
     "lng": 139.79380657450815,
+    "genre": "喫茶店、洋食",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13116057/"
   },
   {
@@ -2207,6 +2376,7 @@
     "hasPower": null,
     "lat": 35.683362245819616,
     "lng": 139.8166444822067,
+    "genre": "コーヒースタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13289848/"
   },
   {
@@ -2220,6 +2390,7 @@
     "hasPower": null,
     "lat": 35.688197338723946,
     "lng": 139.8052235544276,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13086762/"
   },
   {
@@ -2233,6 +2404,7 @@
     "hasPower": null,
     "lat": 35.69959511871901,
     "lng": 139.81244932453768,
+    "genre": "喫茶店、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13187206/"
   },
   {
@@ -2246,6 +2418,7 @@
     "hasPower": null,
     "lat": 35.69631768872219,
     "lng": 139.81587491450216,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13232425/"
   },
   {
@@ -2259,6 +2432,7 @@
     "hasPower": null,
     "lat": 35.6884468387234,
     "lng": 139.803990294431,
+    "genre": "喫茶店",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13138390/"
   },
   {
@@ -2272,6 +2446,7 @@
     "hasPower": null,
     "lat": 35.68584534422687,
     "lng": 139.80249748723122,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13293416/"
   },
   {
@@ -2285,6 +2460,7 @@
     "hasPower": null,
     "lat": 35.68137123792643,
     "lng": 139.81625958318915,
+    "genre": "ケーキ、パン、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13258866/"
   },
   {
@@ -2298,6 +2474,7 @@
     "hasPower": null,
     "lat": 35.68966639872593,
     "lng": 139.81438637443603,
+    "genre": "カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13277939/"
   },
   {
@@ -2311,6 +2488,7 @@
     "hasPower": null,
     "lat": 35.6952826432755,
     "lng": 139.8133706535055,
+    "genre": "カフェ、ジューススタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13286922/"
   },
   {
@@ -2324,6 +2502,7 @@
     "hasPower": null,
     "lat": 35.696311399130614,
     "lng": 139.81566007886977,
+    "genre": "ジューススタンド",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13298645/"
   },
   {
@@ -2337,6 +2516,7 @@
     "hasPower": true,
     "lat": 35.69788358871991,
     "lng": 139.8118441645208,
+    "genre": "ハンバーガー、カフェ",
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13109489/"
   }
 ]
