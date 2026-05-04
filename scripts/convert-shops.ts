@@ -16,7 +16,7 @@ const INPUT_PATH = resolve(__dirname, "..", "data", "raw_shops.json");
 const IGNORE_PATH = resolve(__dirname, "..", "data", "ignore.json");
 const OUTPUT_PATH = resolve(__dirname, "..", "data", "shops.json");
 
-const VALID_STATIONS = ["浅草", "蔵前", "本所吾妻橋", "浅草橋", "田原町"] as const;
+const VALID_STATIONS = ["浅草", "蔵前", "本所吾妻橋", "浅草橋", "田原町", "両国"] as const;
 
 interface RawShop {
   id: string;
@@ -169,6 +169,7 @@ function matchStation(rawStation: string): string[] {
     if (rawStation.includes("吾妻橋")) matched.push("本所吾妻橋");
     if (rawStation.includes("浅草橋")) matched.push("浅草橋");
     if (rawStation.includes("田原町")) matched.push("田原町");
+    if (rawStation.includes("両国")) matched.push("両国");
     if (rawStation.includes("浅草")) matched.push("浅草");
   }
   return [...new Set(matched)];

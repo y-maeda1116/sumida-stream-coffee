@@ -2207,6 +2207,10 @@
       {
         "station": "浅草橋",
         "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -2522,5 +2526,253 @@
     "hasWifi": false,
     "lat": 35.70124717871066,
     "lng": 139.7895208145704
+  },
+  {
+    "id": "tabelog-13253161",
+    "name": "Anchor Ryogoku Riverside",
+    "address": "東京都墨田区横網1-2-13 ザ・ゲートホテル両国 by HULIC 2F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.697588908923336,
+    "lng": 139.7922380763569
+  },
+  {
+    "id": "tabelog-13039280",
+    "name": "カフェ＆ダイニング アゼリア (第一ホテル両国)",
+    "address": "東京都墨田区横網1-6-1 第一ホテル両国 1F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 8
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.698161151818645,
+    "lng": 139.79692571625722
+  },
+  {
+    "id": "tabelog-13222142",
+    "name": "BONDSHOUSE",
+    "address": "東京都墨田区石原1-39-1",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 7
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 12
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 9
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.701459152823205,
+    "lng": 139.79809518950893
+  },
+  {
+    "id": "tabelog-13256200",
+    "name": "oasis",
+    "address": "東京都墨田区千歳1-5-15 オレンジハウス 1F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 8
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69089587871802,
+    "lng": 139.79197124446415
+  },
+  {
+    "id": "tabelog-13142853",
+    "name": "サンマルクカフェ 両国西口店",
+    "address": "東京都墨田区両国2-19-1 両国ビューホテル 1F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69548093871515,
+    "lng": 139.79211831451036
+  },
+  {
+    "id": "tabelog-13208665",
+    "name": "にく処 雷電",
+    "address": "東京都墨田区横網1-3-28 両国国技館 2F 西1-2",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.696579596937084,
+    "lng": 139.79364078411047
+  },
+  {
+    "id": "tabelog-13287842",
+    "name": "SQUARE Coffee Roaster",
+    "address": "東京都墨田区緑1-14-9 1F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 7
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.69457713791289,
+    "lng": 139.8000552833339
+  },
+  {
+    "id": "tabelog-13089404",
+    "name": "田門",
+    "address": "東京都墨田区石原3-25-6",
+    "stations": [
+      {
+        "station": "本所吾妻橋",
+        "exitElevatorWalkMin": 11
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70121110871519,
+    "lng": 139.80366687456015
+  },
+  {
+    "id": "tabelog-13127960",
+    "name": "カフェ・ベローチェ 両国店",
+    "address": "東京都墨田区両国3-25-5 JEI両国ビル1F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.695415988715844,
+    "lng": 139.79417516450826
+  },
+  {
+    "id": "tabelog-13296434",
+    "name": "Single O Ryogoku Roast Works &amp;Cafe",
+    "address": "東京都墨田区亀沢3-21-5",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 13
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.697994548717105,
+    "lng": 139.80326591452794
+  },
+  {
+    "id": "tabelog-13204388",
+    "name": "ベーカリー&amp;カフェ ポルニック",
+    "address": "東京都墨田区両国3-22-8",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69480628871613,
+    "lng": 139.79384903450233
+  },
+  {
+    "id": "tabelog-13116057",
+    "name": "ニューストン",
+    "address": "東京都墨田区両国3-26-11",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69538100871575,
+    "lng": 139.79380657450815
   }
 ]

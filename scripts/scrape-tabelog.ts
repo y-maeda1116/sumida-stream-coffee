@@ -1,6 +1,6 @@
 /**
  * 食べログ スクレイピングスクリプト
- * 浅草・浅草橋・蔵前エリアのカフェ情報を収集し data/raw_shops.json に出力
+ * 浅草・浅草橋・蔵前・両国エリアのカフェ情報を収集し data/raw_shops.json に出力
  *
  * 使い方: npm run scrape
  */
@@ -15,6 +15,7 @@ const OUTPUT_PATH = resolve(__dirname, "..", "data", "raw_shops.json");
 const AREA_URLS = [
   "https://tabelog.com/tokyo/A1311/A131102/rstLst/cafe/",
   "https://tabelog.com/tokyo/A1311/A131103/rstLst/cafe/",
+  "https://tabelog.com/tokyo/A1312/A131201/rstLst/cafe/",
 ];
 
 const SLEEP_MS = 3000;
