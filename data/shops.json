@@ -2314,9 +2314,36 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13222142/"
   },
   {
+<<<<<<< HEAD
     "id": "tabelog-13318146",
     "name": "BROWN TABBY",
     "address": "東京都墨田区亀沢3-13-4 長谷川ビル",
+=======
+    "id": "tabelog-13222776",
+    "name": "TET",
+    "address": "東京都墨田区太平4-18-5 伊勢彦ビル 1F",
+    "stations": [
+      {
+        "station": "押上",
+        "exitElevatorWalkMin": 12
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70281663791289,
+    "lng": 139.81651198340558,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13222776/"
+  },
+  {
+    "id": "tabelog-13058379",
+    "name": "映水庵",
+    "address": "東京都墨田区千歳1-3-3",
+>>>>>>> 143b9fc (feat: add 押上, 入谷, 三ノ輪 stations to coverage)
     "stations": [
       {
         "station": "両国",
@@ -2419,6 +2446,34 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13041424/"
   },
   {
+<<<<<<< HEAD
+=======
+    "id": "tabelog-13154311",
+    "name": "ササヤカフェ",
+    "address": "東京都墨田区横川1-1-10",
+    "stations": [
+      {
+        "station": "本所吾妻橋",
+        "exitElevatorWalkMin": 13
+      },
+      {
+        "station": "押上",
+        "exitElevatorWalkMin": 14
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.703680968715126,
+    "lng": 139.80840793458177,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13154311/"
+  },
+  {
+>>>>>>> 143b9fc (feat: add 押上, 入谷, 三ノ輪 stations to coverage)
     "id": "tabelog-13268216",
     "name": "Q&#39;s table",
     "address": "東京都墨田区両国4-23-2 SRビル 1F",

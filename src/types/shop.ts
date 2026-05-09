@@ -1,6 +1,16 @@
 import { z } from "zod";
 
-export const STATION_NAMES = ["浅草", "蔵前", "本所吾妻橋", "浅草橋", "田原町", "両国"] as const;
+export const STATION_NAMES = [
+  "浅草",
+  "蔵前",
+  "本所吾妻橋",
+  "浅草橋",
+  "田原町",
+  "両国",
+  "押上",
+  "入谷",
+  "三ノ輪",
+] as const;
 
 export type StationName = (typeof STATION_NAMES)[number];
 
