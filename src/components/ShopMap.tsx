@@ -34,7 +34,7 @@ export const ShopMap: Component<ShopMapProps> = (props) => {
 
     props.shops.forEach((shop) => {
       const marker = L.marker([shop.lat, shop.lng]).bindPopup(
-        `<strong>${shop.name}</strong><br/>${shop.address}`
+        `<strong>${shop.name}</strong><br/>${shop.address}<br/><a href="${shop.sourceUrl}" target="_blank" rel="noopener noreferrer">食べログで見る</a>`
       );
 
       marker.on("click", () => {
