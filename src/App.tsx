@@ -35,6 +35,8 @@ export const App: Component = () => {
       <StationSelector selected={selectedStation()} onSelect={setSelectedStation} />
       <FilterBar filters={filters()} onChange={setFilters} />
 
+      <p class={styles.shopCount}>{filteredShops().length}件</p>
+
       <div class={styles.main}>
         <ShopMap
           shops={filteredShops()}
