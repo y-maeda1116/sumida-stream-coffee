@@ -26,10 +26,18 @@ export const App: Component = () => {
   return (
     <div class={styles.app}>
       <header class={styles.header}>
-        <h1 class={styles.headerTitle}>sumida-stream-coffee</h1>
-        <p class={styles.headerSubtitle}>
-          浅草・蔵前・本所吾妻橋・浅草橋・両国エリアのコーヒーショップマップ
-        </p>
+        <div class={styles.headerRow}>
+          <div class={styles.sumiContainer}>
+            <div class={styles.inkBleed} />
+            <span class={styles.kanjiMoku}>濹</span>
+          </div>
+          <div>
+            <h1 class={styles.headerTitle}>sumida-stream-coffee</h1>
+            <p class={styles.headerSubtitle}>
+              浅草・蔵前・本所吾妻橋・浅草橋・両国エリアのコーヒーショップマップ
+            </p>
+          </div>
+        </div>
       </header>
 
       <StationSelector selected={selectedStation()} onSelect={setSelectedStation} />

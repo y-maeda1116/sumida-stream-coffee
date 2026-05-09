@@ -2,10 +2,48 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px;
+  --sumi-black: #2d2d2d;
+  --ink-blue: rgba(162, 217, 206, 0.4);
 }
 
 .header {
   padding: 16px 0 0;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sumiContainer {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.inkBleed {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, var(--ink-blue) 0%, transparent 70%);
+  filter: blur(15px);
+  z-index: 1;
+  animation: breathe 8s infinite ease-in-out;
+}
+
+.kanjiMoku {
+  position: relative;
+  z-index: 2;
+  font-size: 4rem;
+  color: var(--sumi-black);
+  font-family: "Noto Serif JP", "Yu Mincho", serif;
+  font-weight: 200;
+  line-height: 1;
+  animation: fadeInSumi 4s ease-out forwards;
+  opacity: 0;
 }
 
 .headerTitle {
@@ -34,6 +72,31 @@
   gap: 16px;
   height: calc(100vh - 240px);
   min-height: 400px;
+}
+
+@keyframes fadeInSumi {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.6;
+  }
 }
 
 @media (max-width: 768px) {
