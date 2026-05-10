@@ -34,7 +34,7 @@ export const App: Component = () => {
           <div>
             <h1 class={styles.headerTitle}>sumida-stream-coffee</h1>
             <p class={styles.headerSubtitle}>
-              浅草・蔵前・本所吾妻橋・浅草橋・両国・押上・入谷・三ノ輪エリアのコーヒーショップマップ
+              浅草・浅草(TX)・蔵前・本所吾妻橋・浅草橋・両国・押上・入谷・三ノ輪エリアのコーヒーショップマップ
             </p>
           </div>
         </div>

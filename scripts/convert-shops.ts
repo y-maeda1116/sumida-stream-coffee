@@ -16,7 +16,7 @@ const INPUT_PATH = resolve(__dirname, "..", "data", "raw_shops.json");
 const IGNORE_PATH = resolve(__dirname, "..", "data", "ignore.json");
 const OUTPUT_PATH = resolve(__dirname, "..", "data", "shops.json");
 
-const VALID_STATIONS = ["浅草", "蔵前", "本所吾妻橋", "浅草橋", "田原町", "両国", "押上", "入谷", "三ノ輪"] as const;
+const VALID_STATIONS = ["浅草 (TX)", "浅草", "蔵前", "本所吾妻橋", "浅草橋", "田原町", "両国", "押上", "入谷", "三ノ輪"] as const;
 
 interface RawShop {
   id: string;
@@ -67,20 +67,25 @@ function parseAccessText(accessText: string): { station: string; exitElevatorWal
   const results: { station: string; exitElevatorWalkMin: number }[] = [];
   const seen = new Set<string>();
 
-  // Normalize: newlines → spaces, full-width digits → half-width
+  // Normalize: newlines → spaces, full-width digits → half-width, bracket variations
   const text = accessText
     .replace(/[\n\r]+/g, " ")
-    .replace(/[０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0));
+    .replace(/[０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0))
+    .replace(/[【「『]/g, "")
+    .replace(/[】」』]/g, "");
 
   // Strategy: find all (station context, walk time) pairs
   // Each entry looks like: "〜駅...徒歩N分" or "〜駅からNm" or "〜駅N分"
 
+  // Replace TX mentions before parsing so they match as "浅草 (TX)駅"
+  const txText = text.replace(/つくばエクスプレス\s*浅草駅/g, "浅草 (TX)駅");
+
   // Pattern 1: 徒歩N分 — find each occurrence, look backwards for nearest station
   const walkRe = /徒歩[^0-9]*(\d+)分/g;
   let m: RegExpExecArray | null;
-  while ((m = walkRe.exec(text)) !== null) {
+  while ((m = walkRe.exec(txText)) !== null) {
     const walkMin = parseInt(m[1], 10);
-    const before = text.slice(Math.max(0, m.index - 40), m.index + m[0].length);
+    const before = txText.slice(Math.max(0, m.index - 40), m.index + m[0].length);
     const bestMatch = findBestStation(before);
     if (bestMatch && !seen.has(bestMatch)) {
       seen.add(bestMatch);
@@ -90,7 +95,7 @@ function parseAccessText(accessText: string): { station: string; exitElevatorWal
 
   // Pattern 2: 駅からNm — distance to walking time
   const distRe = /(\S+?駅\S*?)から(\d+)m/g;
-  while ((m = distRe.exec(text)) !== null) {
+  while ((m = distRe.exec(txText)) !== null) {
     const dist = parseInt(m[2], 10);
     const walkMin = Math.max(1, Math.ceil(dist / 80));
     const bestMatch = findBestStation(m[1]);
@@ -102,7 +107,7 @@ function parseAccessText(accessText: string): { station: string; exitElevatorWal
 
   // Pattern 3: 駅N分 (e.g. 田原町駅2分)
   const shortRe = /(\S+?駅)\D*?(\d+)分/g;
-  while ((m = shortRe.exec(text)) !== null) {
+  while ((m = shortRe.exec(txText)) !== null) {
     const walkMin = parseInt(m[2], 10);
     const bestMatch = findBestStation(m[1]);
     if (bestMatch && !seen.has(bestMatch)) {
@@ -168,6 +173,9 @@ function matchStation(rawStation: string): string[] {
     }
   }
   if (matched.length === 0) {
+    if (rawStation.includes("(TX)") || rawStation.includes("つくばエクスプレス")) {
+      matched.push("浅草 (TX)");
+    }
     if (rawStation.includes("蔵前")) matched.push("蔵前");
     if (rawStation.includes("吾妻橋")) matched.push("本所吾妻橋");
     if (rawStation.includes("浅草橋")) matched.push("浅草橋");
@@ -176,7 +184,7 @@ function matchStation(rawStation: string): string[] {
     if (rawStation.includes("押上")) matched.push("押上");
     if (rawStation.includes("入谷")) matched.push("入谷");
     if (rawStation.includes("三ノ輪")) matched.push("三ノ輪");
-    if (rawStation.includes("浅草")) matched.push("浅草");
+    if (matched.length === 0 && rawStation.includes("浅草")) matched.push("浅草");
   }
   return [...new Set(matched)];
 }
@@ -189,7 +197,10 @@ function isCafeGenre(genre: string): boolean {
 
 function matchesTargetStation(raw: RawShop): boolean {
   if (parseAccessText(raw.accessText).length > 0) return true;
-  return matchStation(raw.station).length > 0;
+  const stationText = raw.station.includes("つくばエクスプレス")
+    ? raw.station.replace(/つくばエクスプレス\S*?浅草/g, "浅草 (TX)")
+    : raw.station;
+  return matchStation(stationText).length > 0;
 }
 
 async function main(): Promise<void> {

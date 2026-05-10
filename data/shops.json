@@ -145,6 +145,10 @@
       {
         "station": "浅草",
         "exitElevatorWalkMin": 3
+      },
+      {
+        "station": "浅草 (TX)",
+        "exitElevatorWalkMin": 8
       }
     ],
     "brewMethods": [],
@@ -163,6 +167,10 @@
     "name": "SANSOU CAFE",
     "address": "東京都台東区浅草3-15-2 タンジェリン浅草 1F",
     "stations": [
+      {
+        "station": "浅草 (TX)",
+        "exitElevatorWalkMin": 5
+      },
       {
         "station": "浅草",
         "exitElevatorWalkMin": 5
@@ -353,8 +361,12 @@
     "address": "東京都台東区西浅草3-17-1 浅草ビューホテル 1F",
     "stations": [
       {
-        "station": "田原町",
+        "station": "浅草 (TX)",
         "exitElevatorWalkMin": 7
+      },
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 10
       },
       {
         "station": "浅草",
@@ -399,8 +411,12 @@
     "address": "東京都台東区浅草1-41-4",
     "stations": [
       {
-        "station": "浅草",
+        "station": "浅草 (TX)",
         "exitElevatorWalkMin": 2
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 8
       }
     ],
     "brewMethods": [],
@@ -462,8 +478,12 @@
     "address": "東京都台東区浅草2-15-4",
     "stations": [
       {
-        "station": "浅草",
+        "station": "浅草 (TX)",
         "exitElevatorWalkMin": 4
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
       }
     ],
     "brewMethods": [],
@@ -588,8 +608,12 @@
     "address": "東京都台東区浅草3-8-4",
     "stations": [
       {
-        "station": "浅草",
+        "station": "浅草 (TX)",
         "exitElevatorWalkMin": 7
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 11
       }
     ],
     "brewMethods": [],
@@ -737,6 +761,10 @@
       {
         "station": "浅草",
         "exitElevatorWalkMin": 12
+      },
+      {
+        "station": "浅草 (TX)",
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -932,8 +960,12 @@
     "address": "東京都台東区浅草1-25-15",
     "stations": [
       {
-        "station": "浅草",
+        "station": "浅草 (TX)",
         "exitElevatorWalkMin": 1
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],

@@ -2,6 +2,7 @@ import { z } from "zod";
 
 export const STATION_NAMES = [
   "浅草",
+  "浅草 (TX)",
   "蔵前",
   "本所吾妻橋",
   "浅草橋",
