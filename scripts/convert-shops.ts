@@ -53,6 +53,35 @@ interface Shop {
 const FALLBACK_LAT = 35.7148;
 const FALLBACK_LNG = 139.7967;
 
+const STATION_COORDS: Record<string, [number, number]> = {
+  "浅草": [35.7148, 139.7967],
+  "浅草 (TX)": [35.7115, 139.7968],
+  "蔵前": [35.6975, 139.7935],
+  "本所吾妻橋": [35.7085, 139.8045],
+  "浅草橋": [35.6980, 139.7890],
+  "田原町": [35.7100, 139.7930],
+  "両国": [35.6935, 139.7935],
+  "押上": [35.7102, 139.8135],
+  "入谷": [35.7220, 139.7840],
+  "三ノ輪": [35.7300, 139.7900],
+};
+
+function estimateWalkMin(lat: number, lng: number, sLat: number, sLng: number): number {
+  const dx = (lat - sLat) * 111000;
+  const dy = (lng - sLng) * 111000 * Math.cos((lat * Math.PI) / 180);
+  const distM = Math.sqrt(dx * dx + dy * dy);
+  return Math.max(1, Math.round(distM / 80));
+}
+
+function nearestStations(lat: number, lng: number): { station: string; exitElevatorWalkMin: number }[] {
+  const entries = Object.entries(STATION_COORDS).map(([station, [sLat, sLng]]) => ({
+    station,
+    exitElevatorWalkMin: estimateWalkMin(lat, lng, sLat, sLng),
+  }));
+  entries.sort((a, b) => a.exitElevatorWalkMin - b.exitElevatorWalkMin);
+  return entries.slice(0, 2);
+}
+
 function loadIgnoreList(): Set<string> {
   try {
     const raw = readFileSync(IGNORE_PATH, "utf-8");
@@ -138,14 +167,23 @@ async function convertShop(raw: RawShop, index: number, total: number): Promise<
   const lat = raw.lat ?? FALLBACK_LAT;
   const lng = raw.lng ?? FALLBACK_LNG;
 
-  let stations = parseAccessText(raw.accessText);
+  let stations = parseAccessText(raw.accessText).map((s) => ({
+    ...s,
+    exitElevatorWalkMin: Math.max(1, s.exitElevatorWalkMin),
+  }));
 
   if (stations.length === 0) {
     const stationNames = matchStation(raw.station);
-    stations =
-      stationNames.length > 0
-        ? stationNames.map((station) => ({ station, exitElevatorWalkMin: 0 }))
-        : [{ station: "浅草", exitElevatorWalkMin: 0 }];
+    if (stationNames.length > 0) {
+      stations = stationNames.map((station) => ({
+        station,
+        exitElevatorWalkMin: STATION_COORDS[station]
+          ? estimateWalkMin(lat, lng, ...STATION_COORDS[station])
+          : 0,
+      }));
+    } else {
+      stations = nearestStations(lat, lng);
+    }
   }
 
   return {

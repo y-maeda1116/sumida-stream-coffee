@@ -1,5 +1,5 @@
 import type { Component } from "solid-js";
-import { onMount, createEffect } from "solid-js";
+import { onMount, onCleanup, createEffect } from "solid-js";
 import L from "leaflet";
 import type { Shop, StationName } from "../types/shop";
 import styles from "./ShopMap.module.css";
@@ -26,6 +26,10 @@ export const ShopMap: Component<ShopMapProps> = (props) => {
     }).addTo(map);
 
     markers = L.layerGroup().addTo(map);
+  });
+
+  onCleanup(() => {
+    if (map) map.remove();
   });
 
   createEffect(() => {

@@ -17,6 +17,7 @@ const shops = validateShops(shopsData);
 export const App: Component = () => {
   const [selectedStation, setSelectedStation] = createSignal<StationName | null>(null);
   const [filters, setFilters] = createSignal<FilterState>(DEFAULT_FILTERS);
+  const [selectedShopId, setSelectedShopId] = createSignal<string | null>(null);
 
   const filteredShops = createMemo(() => {
     const filtered = filterShops(shops, filters());
@@ -49,9 +50,13 @@ export const App: Component = () => {
         <ShopMap
           shops={filteredShops()}
           selectedStation={selectedStation()}
-          onShopSelect={() => {}}
+          onShopSelect={setSelectedShopId}
         />
-        <ShopList shops={filteredShops()} selectedStation={selectedStation()} />
+        <ShopList
+          shops={filteredShops()}
+          selectedStation={selectedStation()}
+          selectedShopId={selectedShopId()}
+        />
       </div>
     </div>
   );

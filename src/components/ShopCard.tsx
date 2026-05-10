@@ -1,4 +1,5 @@
 import type { Component } from "solid-js";
+import { onMount } from "solid-js";
 import type { Shop } from "../types/shop";
 import styles from "./ShopCard.module.css";
 
@@ -11,9 +12,16 @@ const STROLLER_LABELS: Record<string, string> = {
 interface ShopCardProps {
   shop: Shop;
   selectedStation: string | null;
+  highlighted?: boolean;
+  onMount?: (el: HTMLElement) => void;
 }
 
 export const ShopCard: Component<ShopCardProps> = (props) => {
+  let cardRef!: HTMLAnchorElement;
+
+  onMount(() => {
+    if (props.onMount) props.onMount(cardRef);
+  });
   const walkTime = () => {
     if (props.selectedStation) {
       const match = props.shop.stations.find((s) => s.station === props.selectedStation);
@@ -28,7 +36,13 @@ export const ShopCard: Component<ShopCardProps> = (props) => {
     ];
 
   return (
-    <a class={styles.card} href={props.shop.sourceUrl} target="_blank" rel="noopener noreferrer">
+    <a
+      ref={cardRef}
+      class={`${styles.card} ${props.highlighted ? styles.highlighted : ""}`}
+      href={props.shop.sourceUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <h3 class={styles.name}>{props.shop.name}</h3>
       <p class={styles.address}>{props.shop.address}</p>
 
