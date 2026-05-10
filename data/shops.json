@@ -718,7 +718,7 @@
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 0
+        "exitElevatorWalkMin": 14
       }
     ],
     "brewMethods": [],

@@ -71,6 +71,7 @@ function parseAccessText(accessText: string): { station: string; exitElevatorWal
   const text = accessText
     .replace(/[\n\r]+/g, " ")
     .replace(/[０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0))
+    .replace(/(\d),(\d)/g, "$1$2")
     .replace(/[【「『]/g, "")
     .replace(/[】」』]/g, "");
 
