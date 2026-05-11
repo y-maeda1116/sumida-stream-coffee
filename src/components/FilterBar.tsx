@@ -1,11 +1,5 @@
 import type { Component } from "solid-js";
-import {
-  BREW_METHODS,
-  ATMOSPHERE_TAGS,
-  type FilterState,
-  type BrewMethod,
-  type AtmosphereTag,
-} from "../types/shop";
+import { DEFAULT_FILTERS, type FilterState } from "../types/shop";
 import styles from "./FilterBar.module.css";
 
 interface FilterBarProps {
@@ -14,40 +8,27 @@ interface FilterBarProps {
 }
 
 export const FilterBar: Component<FilterBarProps> = (props) => {
-  const toggleBrewMethod = (method: BrewMethod) => {
-    const current = props.filters.brewMethods;
-    const next = current.includes(method)
-      ? current.filter((m) => m !== method)
-      : [...current, method];
-    props.onChange({ ...props.filters, brewMethods: next });
-  };
-
-  const toggleAtmosphere = (tag: AtmosphereTag) => {
-    const current = props.filters.atmosphere;
-    const next = current.includes(tag) ? current.filter((a) => a !== tag) : [...current, tag];
-    props.onChange({ ...props.filters, atmosphere: next });
-  };
-
   const toggleBool = (
     key: "hasWifi" | "hasPower" | "babyStrollerFriendly" | "beansAvailable" | "selfRoasted"
   ) => {
     props.onChange({ ...props.filters, [key]: !props.filters[key] });
   };
 
+  const hasActiveFilters = () => {
+    const f = props.filters;
+    return (
+      f.brewMethods.length > 0 ||
+      f.hasWifi ||
+      f.hasPower ||
+      f.babyStrollerFriendly ||
+      f.atmosphere.length > 0 ||
+      f.beansAvailable ||
+      f.selfRoasted
+    );
+  };
+
   return (
     <div class={styles.container}>
-      <div class={styles.group}>
-        <span class={styles.groupLabel}>抽出法</span>
-        {BREW_METHODS.map((method) => (
-          <button
-            class={`${styles.toggle} ${props.filters.brewMethods.includes(method) ? styles.toggleActive : ""}`}
-            onClick={() => toggleBrewMethod(method)}
-          >
-            {method}
-          </button>
-        ))}
-      </div>
-
       <div class={styles.group}>
         <span class={styles.groupLabel}>設備</span>
         <button
@@ -71,18 +52,6 @@ export const FilterBar: Component<FilterBarProps> = (props) => {
       </div>
 
       <div class={styles.group}>
-        <span class={styles.groupLabel}>雰囲気</span>
-        {ATMOSPHERE_TAGS.map((tag) => (
-          <button
-            class={`${styles.toggle} ${props.filters.atmosphere.includes(tag) ? styles.toggleActive : ""}`}
-            onClick={() => toggleAtmosphere(tag)}
-          >
-            {tag}
-          </button>
-        ))}
-      </div>
-
-      <div class={styles.group}>
         <span class={styles.groupLabel}>豆</span>
         <button
           class={`${styles.toggle} ${props.filters.beansAvailable ? styles.toggleActive : ""}`}
@@ -97,6 +66,12 @@ export const FilterBar: Component<FilterBarProps> = (props) => {
           自家焙煎
         </button>
       </div>
+
+      {hasActiveFilters() && (
+        <button class={styles.clearButton} onClick={() => props.onChange(DEFAULT_FILTERS)}>
+          クリア
+        </button>
+      )}
     </div>
   );
 };

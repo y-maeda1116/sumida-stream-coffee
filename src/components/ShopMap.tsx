@@ -37,8 +37,11 @@ export const ShopMap: Component<ShopMapProps> = (props) => {
     markers.clearLayers();
 
     props.shops.forEach((shop) => {
+      const walkInfo = shop.stations
+        .map((s) => `${s.station} ${s.exitElevatorWalkMin}分`)
+        .join(" / ");
       const marker = L.marker([shop.lat, shop.lng]).bindPopup(
-        `<strong>${shop.name}</strong><br/>${shop.address}<br/><a href="${shop.sourceUrl}" target="_blank" rel="noopener noreferrer">食べログで見る</a>`
+        `<strong>${shop.name}</strong><br/>${shop.address}<br/><span style="color:#6b5e50;font-size:0.85em">${walkInfo}</span><br/><a href="${shop.sourceUrl}" target="_blank" rel="noopener noreferrer">食べログで見る</a>`
       );
 
       marker.on("click", () => {

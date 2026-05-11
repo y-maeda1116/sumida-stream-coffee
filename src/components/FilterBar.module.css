@@ -45,3 +45,18 @@
 .toggleActive:hover {
   background: #5a4f44;
 }
+
+.clearButton {
+  padding: 4px 10px;
+  border: 1px solid #c8b9a4;
+  border-radius: 6px;
+  background: transparent;
+  font-size: 0.78rem;
+  cursor: pointer;
+  color: #8b7e72;
+  margin-left: auto;
+}
+
+.clearButton:hover {
+  background: #f5efe8;
+}

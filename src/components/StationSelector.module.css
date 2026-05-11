@@ -29,3 +29,10 @@
 .buttonActive:hover {
   background: #5a4f44;
 }
+
+@media (max-width: 480px) {
+  .button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
