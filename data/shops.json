@@ -21,6 +21,27 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13275994/"
   },
   {
+    "id": "tabelog-13278718",
+    "name": "ICHI MARU ICHI",
+    "address": "東京都台東区寿2-2-9 agora place 1F",
+    "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.70899500870618,
+    "lng": 139.7909237746477,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13278718/"
+  },
+  {
     "id": "tabelog-13293734",
     "name": "CAFE to BAR With",
     "address": "東京都台東区駒形2-6-7 AI.Bビル 1F",
@@ -44,27 +65,6 @@
     "lat": 35.70755318296081,
     "lng": 139.79548342377703,
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13293734/"
-  },
-  {
-    "id": "tabelog-13278718",
-    "name": "ICHI MARU ICHI",
-    "address": "東京都台東区寿2-2-9 agora place 1F",
-    "stations": [
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.70899500870618,
-    "lng": 139.7909237746477,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13278718/"
   },
   {
     "id": "tabelog-13092157",
@@ -163,594 +163,12 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13257967/"
   },
   {
-    "id": "tabelog-13075871",
-    "name": "カフェ・ド・ラーク",
-    "address": "東京都台東区浅草1-20-12",
+    "id": "tabelog-13204390",
+    "name": "カフェ いちりん",
+    "address": "東京都台東区浅草2-1-16 藤田ビル 3F",
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.7118216587061,
-    "lng": 139.79628597467251,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13075871/"
-  },
-  {
-    "id": "tabelog-13290359",
-    "name": "TABI TO COFFEE",
-    "address": "東京都台東区西浅草1-7-20 サンライズ浅草田原町 2F",
-    "stations": [
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 1
-      },
-      {
-        "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 3
-      },
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 8
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.710683328341,
-    "lng": 139.7914750368363,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13290359/"
-  },
-  {
-    "id": "tabelog-13301874",
-    "name": "Mirage Cafe",
-    "address": "東京都台東区雷門2-12-10 北陸銀行ビル 1F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71003323870711,
-    "lng": 139.79590458465472,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13301874/"
-  },
-  {
-    "id": "tabelog-13277507",
-    "name": "コバチチャイ",
-    "address": "東京都台東区蔵前3-19-6",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 4
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70563714870847,
-    "lng": 139.79139716461344,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13277507/"
-  },
-  {
-    "id": "tabelog-13076017",
-    "name": "シルクロード",
-    "address": "東京都台東区西浅草3-14-11",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.715190568702354,
-    "lng": 139.79124586471005,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13076017/"
-  },
-  {
-    "id": "tabelog-13076413",
-    "name": "金龍",
-    "address": "東京都台東区浅草1-20-3",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.711601498706194,
-    "lng": 139.7961434246704,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13076413/"
-  },
-  {
-    "id": "tabelog-13024859",
-    "name": "おにぎり浅草宿六",
-    "address": "東京都台東区浅草3-9-10",
-    "stations": [
-      {
-        "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 3
-      },
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 11
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.716892738702384,
-    "lng": 139.79475880472478,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13024859/"
-  },
-  {
-    "id": "tabelog-13111420",
-    "name": "浅草茶房",
-    "address": "東京都台東区花川戸1-13-9",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71380163790067,
-    "lng": 139.80006348352805,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13111420/"
-  },
-  {
-    "id": "tabelog-13140509",
-    "name": "タリーズコーヒー 東武浅草駅店",
-    "address": "東京都台東区花川戸1-4-1 東武鉄道浅草駅構内 2F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71209070870672,
-    "lng": 139.79876575467347,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13140509/"
-  },
-  {
-    "id": "tabelog-13158448",
-    "name": "とらや 浅草松屋売店",
-    "address": "東京都台東区花川戸 1-4-1 松屋浅草 1F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71182327870669,
-    "lng": 139.7981427846712,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13158448/"
-  },
-  {
-    "id": "tabelog-13305692",
-    "name": "KUKAI",
-    "address": "東京都台東区西浅草2-8-7",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 4
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71296122870327,
-    "lng": 139.78969087468863,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13305692/"
-  },
-  {
-    "id": "tabelog-13175471",
-    "name": "珈琲けやき",
-    "address": "東京都台東区浅草2-7-21",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.715046798703526,
-    "lng": 139.7946450347062,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13175471/"
-  },
-  {
-    "id": "tabelog-13242447",
-    "name": "松竹圓カフェ",
-    "address": "東京都台東区西浅草2-7-6",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 4
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71303192694537,
-    "lng": 139.78923789227494,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13242447/"
-  },
-  {
-    "id": "tabelog-13299319",
-    "name": "TARTLIER RIVERSIDE asakusa",
-    "address": "東京都台東区花川戸1-12-14",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.713079418706556,
-    "lng": 139.80023688468242,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13299319/"
-  },
-  {
-    "id": "tabelog-13127202",
-    "name": "THE LOUNGE",
-    "address": "東京都台東区西浅草3-17-1 浅草ビューホテル 1F",
-    "stations": [
-      {
-        "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 7
-      },
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 10
-      },
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.715465880532584,
-    "lng": 139.79194338885338,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13127202/"
-  },
-  {
-    "id": "tabelog-13258208",
-    "name": "ELOISE’s Cafe  浅草店",
-    "address": "東京都台東区浅草2-27-10",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 12
-      },
-      {
-        "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 5
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.716429138702836,
-    "lng": 139.7952373347198,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13258208/"
-  },
-  {
-    "id": "tabelog-13297653",
-    "name": "茶々工房 花やしき店",
-    "address": "東京都台東区浅草2-28-1",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71527261385994,
-    "lng": 139.79457623464975,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13297653/"
-  },
-  {
-    "id": "tabelog-13215329",
-    "name": "ツナグ食堂 雷門店",
-    "address": "東京都台東区雷門2-14-1 アパホテル 1F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.71011741870685,
-    "lng": 139.795232034656,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13215329/"
-  },
-  {
-    "id": "tabelog-13188211",
-    "name": "カフェ ライゼ",
-    "address": "東京都台東区浅草4-48-15",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 15
-      },
-      {
-        "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 15
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.718843248702484,
-    "lng": 139.79894886474156,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13188211/"
-  },
-  {
-    "id": "tabelog-13201110",
-    "name": "タリーズコーヒー 浅草新仲見世店",
-    "address": "東京都台東区浅草1-19-8",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.711750408706344,
-    "lng": 139.79692716467133,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13201110/"
-  },
-  {
-    "id": "tabelog-13251925",
-    "name": "カフェ・ド ママ3",
-    "address": "東京都台東区浅草1-1-12 浅草地下街",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.7116140587066,
-    "lng": 139.79745229466957,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13251925/"
-  },
-  {
-    "id": "tabelog-13127072",
-    "name": "フレッシュネスバーガー 浅草国際通り店",
-    "address": "東京都台東区雷門1-6-5 布施不動産南ﾋﾞﾙ1･2F",
-    "stations": [
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70997582870582,
-    "lng": 139.79174944465703,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13127072/"
-  },
-  {
-    "id": "tabelog-13269570",
-    "name": "浅草ミルクレープ",
-    "address": "東京都台東区花川戸2-8-4 市原商店ビル 1F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.714853538705036,
-    "lng": 139.79898868470121,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13269570/"
-  },
-  {
-    "id": "tabelog-13271371",
-    "name": "サクラ咲",
-    "address": "東京都台東区雷門1-9-2 雷門ウェストビル 1F",
-    "stations": [
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 3
-      },
-      {
-        "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 5
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": false,
-    "lat": 35.71040441870581,
-    "lng": 139.79253668466083,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13271371/"
-  },
-  {
-    "id": "tabelog-13315062",
-    "name": "AU",
-    "address": "東京都墨田区本所1-33-8 HAUN蔵前 1F",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 8
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.704958763095924,
-    "lng": 139.79721315718874,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13315062/"
-  },
-  {
-    "id": "tabelog-13174753",
-    "name": "キャピタルコーヒー  松屋浅草店",
-    "address": "東京都台東区花川戸1-4-1 松屋浅草 B1F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71221593790115,
-    "lng": 139.79843628351318,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13174753/"
-  },
-  {
-    "id": "tabelog-13169574",
-    "name": "Cafe Rest’Cuzn Home GRound",
-    "address": "東京都台東区浅草2-17-9",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 10
-      },
-      {
-        "station": "田原町",
         "exitElevatorWalkMin": 5
       }
     ],
@@ -761,18 +179,22 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.716043048702595,
-    "lng": 139.793680034717,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13169574/"
+    "lat": 35.71295643790045,
+    "lng": 139.7977117835212,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13204390/"
   },
   {
-    "id": "tabelog-13253097",
-    "name": "雷一茶 伝法院通り店",
-    "address": "東京都台東区浅草2-2-2",
+    "id": "tabelog-13270167",
+    "name": "Quebom! Riverside Cafe e Bar",
+    "address": "東京都墨田区吾妻橋1-23-8先",
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 3
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "本所吾妻橋",
+        "exitElevatorWalkMin": 5
       }
     ],
     "brewMethods": [],
@@ -780,32 +202,11 @@
     "selfRoasted": false,
     "atmosphere": [],
     "babyStrollerAccess": "moderate",
-    "hasPower": false,
+    "hasPower": true,
     "hasWifi": false,
-    "lat": 35.71292290870559,
-    "lng": 139.79689185468322,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13253097/"
-  },
-  {
-    "id": "tabelog-13008610",
-    "name": "カフェ　ムルソー",
-    "address": "東京都台東区雷門2-1-5 中村ビル",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70923367870803,
-    "lng": 139.7971921346457,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13008610/"
+    "lat": 35.71050230927543,
+    "lng": 139.80065741970844,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13270167/"
   },
   {
     "id": "tabelog-13263940",
@@ -837,41 +238,12 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13263940/"
   },
   {
-    "id": "tabelog-13086876",
-    "name": "ドトールコーヒーショップ 浅草田原町店",
-    "address": "東京都台東区西浅草1-1-16 カーサ田原町",
-    "stations": [
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71033807870549,
-    "lng": 139.79142677466092,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13086876/"
-  },
-  {
-    "id": "tabelog-13210757",
-    "name": "Sensing Touch of Earth",
-    "address": "東京都台東区松が谷3-1-12",
+    "id": "tabelog-13275713",
+    "name": "BAKE&amp;Cafe Notus",
+    "address": "東京都台東区浅草6-37-1",
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 7
-      },
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 9
-      },
-      {
-        "station": "入谷",
         "exitElevatorWalkMin": 12
       }
     ],
@@ -880,40 +252,19 @@
     "selfRoasted": false,
     "atmosphere": [],
     "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.71511512870165,
-    "lng": 139.78886012471096,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13210757/"
-  },
-  {
-    "id": "tabelog-13215949",
-    "name": "ベーカリー&amp;カフェ ヤマザキ 田原町店",
-    "address": "東京都台東区西浅草1-1-17",
-    "stations": [
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
     "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.71017893870558,
-    "lng": 139.79138857465935,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13215949/"
+    "hasWifi": false,
+    "lat": 35.71869533789784,
+    "lng": 139.80095818357685,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13275713/"
   },
   {
-    "id": "tabelog-13160466",
-    "name": "K&#39;s cafe",
-    "address": "東京都台東区雷門1-10-1 フカミビル 1F",
+    "id": "tabelog-13150310",
+    "name": "彩夏",
+    "address": "東京都台東区浅草1-32-3 1F",
     "stations": [
       {
-        "station": "田原町",
+        "station": "浅草",
         "exitElevatorWalkMin": 2
       }
     ],
@@ -924,88 +275,17 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.710308838706084,
-    "lng": 139.7932081146594,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13160466/"
+    "lat": 35.71192009870617,
+    "lng": 139.7967045646732,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13150310/"
   },
   {
-    "id": "tabelog-13058004",
-    "name": "ロッジ赤石",
-    "address": "東京都台東区浅草3-8-4",
-    "stations": [
-      {
-        "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 7
-      },
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 11
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71701046870243,
-    "lng": 139.79512070472572,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13058004/"
-  },
-  {
-    "id": "tabelog-13150413",
-    "name": "カフェきゃらふ",
-    "address": "東京都台東区雷門2-19-13 浅草駅前ビル 2F",
+    "id": "tabelog-13312816",
+    "name": "喫茶メロー",
+    "address": "東京都台東区浅草1-22-8 B1F",
     "stations": [
       {
         "station": "浅草",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.71041524870732,
-    "lng": 139.79731099465755,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13150413/"
-  },
-  {
-    "id": "tabelog-13180333",
-    "name": "スケロク ダイナー",
-    "address": "東京都台東区花川戸1-11-1 あゆみビル 1F・2F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.71235248870676,
-    "lng": 139.79942893467563,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13180333/"
-  },
-  {
-    "id": "tabelog-13094897",
-    "name": "昔ながらの喫茶店 友路有　 浅草店",
-    "address": "東京都台東区浅草1-29-3 2F",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 5
-      },
-      {
-        "station": "浅草 (TX)",
         "exitElevatorWalkMin": 4
       }
     ],
@@ -1016,9 +296,399 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.71209543790019,
-    "lng": 139.7951146835143,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13094897/"
+    "lat": 35.71211181870533,
+    "lng": 139.7944436546767,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13312816/"
+  },
+  {
+    "id": "tabelog-13095672",
+    "name": "フルーツパーラーゴトー",
+    "address": "東京都台東区浅草2-15-4",
+    "stations": [
+      {
+        "station": "浅草 (TX)",
+        "exitElevatorWalkMin": 4
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.715761278702814,
+    "lng": 139.79381538471404,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13095672/"
+  },
+  {
+    "id": "tabelog-13088591",
+    "name": "ペガサス",
+    "address": "東京都台東区西浅草3-1-10",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71425462870326,
+    "lng": 139.7922426346999,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13088591/"
+  },
+  {
+    "id": "tabelog-13174753",
+    "name": "キャピタルコーヒー  松屋浅草店",
+    "address": "東京都台東区花川戸1-4-1 松屋浅草 B1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71221593790115,
+    "lng": 139.79843628351318,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13174753/"
+  },
+  {
+    "id": "tabelog-13076082",
+    "name": "Deux こきりこ",
+    "address": "東京都台東区浅草2-16-7",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.715880437897546,
+    "lng": 139.794411483553,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13076082/"
+  },
+  {
+    "id": "tabelog-13237405",
+    "name": "カフェ シーズ",
+    "address": "東京都台東区西浅草2-25-11",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71402279870302,
+    "lng": 139.79100309469845,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13237405/"
+  },
+  {
+    "id": "tabelog-13184130",
+    "name": "かぐらちゃかプチ 浅草店",
+    "address": "東京都台東区西浅草2-27-11",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71370323789824,
+    "lng": 139.79222018353258,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13184130/"
+  },
+  {
+    "id": "tabelog-13257390",
+    "name": "星乃珈琲店 浅草店",
+    "address": "東京都台東区浅草1-23-6 浅草関根ビル 1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71227973870483,
+    "lng": 139.79322455467926,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13257390/"
+  },
+  {
+    "id": "tabelog-13158448",
+    "name": "とらや 浅草松屋売店",
+    "address": "東京都台東区花川戸 1-4-1 松屋浅草 1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71182327870669,
+    "lng": 139.7981427846712,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13158448/"
+  },
+  {
+    "id": "tabelog-13161092",
+    "name": "花月堂 雷門店",
+    "address": "東京都台東区浅草1-18-11 1F～2F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71153753790083,
+    "lng": 139.79605828350802,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13161092/"
+  },
+  {
+    "id": "tabelog-13253097",
+    "name": "雷一茶 伝法院通り店",
+    "address": "東京都台東区浅草2-2-2",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71292290870559,
+    "lng": 139.79689185468322,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13253097/"
+  },
+  {
+    "id": "tabelog-13087406",
+    "name": "ウカンムリ",
+    "address": "東京都台東区寿4-10-1",
+    "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.708648738707076,
+    "lng": 139.79302758464274,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13087406/"
+  },
+  {
+    "id": "tabelog-13301874",
+    "name": "Mirage Cafe",
+    "address": "東京都台東区雷門2-12-10 北陸銀行ビル 1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71003323870711,
+    "lng": 139.79590458465472,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13301874/"
+  },
+  {
+    "id": "tabelog-13287047",
+    "name": "annorum",
+    "address": "東京都台東区浅草4-7-11",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 8
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.7180503378972,
+    "lng": 139.79758228357272,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13287047/"
+  },
+  {
+    "id": "tabelog-13309874",
+    "name": "NOOK.",
+    "address": "東京都台東区西浅草2-9-2",
+    "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.71267656870363,
+    "lng": 139.79025097468536,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13309874/"
+  },
+  {
+    "id": "tabelog-13228648",
+    "name": "ドッグデプトカフェ 浅草 隅田川テラス店",
+    "address": "東京都台東区駒形2-1-30 2F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70830973790296,
+    "lng": 139.7963400834752,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13228648/"
+  },
+  {
+    "id": "tabelog-13149691",
+    "name": "66DINING 六本木六丁目食堂 浅草EKIMISE店",
+    "address": "東京都台東区花川戸1-4-1 浅草EKIMISE 7F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71166763790145,
+    "lng": 139.7982488835078,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13149691/"
+  },
+  {
+    "id": "tabelog-13086615",
+    "name": "カフェ珈琲館 浅草店",
+    "address": "東京都台東区浅草1-6-1",
+    "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 7
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 5
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.711379130633595,
+    "lng": 139.79395868742228,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13086615/"
+  },
+  {
+    "id": "tabelog-13140509",
+    "name": "タリーズコーヒー 東武浅草駅店",
+    "address": "東京都台東区花川戸1-4-1 東武鉄道浅草駅構内 2F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71209070870672,
+    "lng": 139.79876575467347,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13140509/"
   },
   {
     "id": "tabelog-13201628",
@@ -1063,14 +733,35 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13314366/"
   },
   {
-    "id": "tabelog-13095672",
-    "name": "フルーツパーラーゴトー",
-    "address": "東京都台東区浅草2-15-4",
+    "id": "tabelog-13231136",
+    "name": "フェブラリーキッチン",
+    "address": "東京都台東区浅草2-29-6 天野ビル 1F",
     "stations": [
       {
         "station": "浅草 (TX)",
-        "exitElevatorWalkMin": 4
+        "exitElevatorWalkMin": 6
       },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.71539753789815,
+    "lng": 139.7953301835475,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13231136/"
+  },
+  {
+    "id": "tabelog-13088839",
+    "name": "ラ・プラージュ",
+    "address": "東京都台東区浅草1-35-10",
+    "stations": [
       {
         "station": "浅草",
         "exitElevatorWalkMin": 3
@@ -1083,18 +774,26 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.715761278702814,
-    "lng": 139.79381538471404,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13095672/"
+    "lat": 35.71248357870611,
+    "lng": 139.79766024467824,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13088839/"
   },
   {
-    "id": "tabelog-13016824",
-    "name": "モンブラン",
-    "address": "東京都台東区浅草1-17-5",
+    "id": "tabelog-13290359",
+    "name": "TABI TO COFFEE",
+    "address": "東京都台東区西浅草1-7-20 サンライズ浅草田原町 2F",
     "stations": [
       {
+        "station": "田原町",
+        "exitElevatorWalkMin": 1
+      },
+      {
+        "station": "浅草 (TX)",
+        "exitElevatorWalkMin": 3
+      },
+      {
         "station": "浅草",
-        "exitElevatorWalkMin": 4
+        "exitElevatorWalkMin": 8
       }
     ],
     "brewMethods": [],
@@ -1104,9 +803,9 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.71153440823029,
-    "lng": 139.79489915772257,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13016824/"
+    "lat": 35.710683328341,
+    "lng": 139.7914750368363,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13290359/"
   },
   {
     "id": "tabelog-13057888",
@@ -1128,6 +827,262 @@
     "lat": 35.71863497870209,
     "lng": 139.7972976447406,
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13057888/"
+  },
+  {
+    "id": "tabelog-13076465",
+    "name": "あんみつ抹茶処 雷門まとい",
+    "address": "東京都台東区浅草1-3-3",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71109864870646,
+    "lng": 139.7959910246654,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13076465/"
+  },
+  {
+    "id": "tabelog-13076017",
+    "name": "シルクロード",
+    "address": "東京都台東区西浅草3-14-11",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.715190568702354,
+    "lng": 139.79124586471005,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13076017/"
+  },
+  {
+    "id": "tabelog-13299319",
+    "name": "TARTLIER RIVERSIDE asakusa",
+    "address": "東京都台東区花川戸1-12-14",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.713079418706556,
+    "lng": 139.80023688468242,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13299319/"
+  },
+  {
+    "id": "tabelog-13033544",
+    "name": "スターバックス コーヒー 浅草駅前店",
+    "address": "東京都台東区花川戸1-5-1",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.71195550870654,
+    "lng": 139.79795260467267,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13033544/"
+  },
+  {
+    "id": "tabelog-13158341",
+    "name": "カフェ オトノヴァ",
+    "address": "東京都台東区西浅草3-10-4",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 5
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.7153630378963,
+    "lng": 139.78947028355125,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13158341/"
+  },
+  {
+    "id": "tabelog-13215189",
+    "name": "西浅草 黒猫亭",
+    "address": "東京都台東区西浅草2-9-1",
+    "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 8
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.712458337898376,
+    "lng": 139.79016728352144,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13215189/"
+  },
+  {
+    "id": "tabelog-13008610",
+    "name": "カフェ　ムルソー",
+    "address": "東京都台東区雷門2-1-5 中村ビル",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70924452870802,
+    "lng": 139.7971759246458,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13008610/"
+  },
+  {
+    "id": "tabelog-13229058",
+    "name": "コッペ田島 浅草ROX店",
+    "address": "東京都台東区浅草1-24-1 ROX2G 1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71243545870461,
+    "lng": 139.7928382046811,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13229058/"
+  },
+  {
+    "id": "tabelog-13086876",
+    "name": "ドトールコーヒーショップ 浅草田原町店",
+    "address": "東京都台東区西浅草1-1-16 カーサ田原町",
+    "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71033807870549,
+    "lng": 139.79142677466092,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13086876/"
+  },
+  {
+    "id": "tabelog-13075895",
+    "name": "カフェホワイエ",
+    "address": "東京都台東区雷門2-17-13 雷門ウスイビル 2F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71053380870683,
+    "lng": 139.79601569465967,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13075895/"
+  },
+  {
+    "id": "tabelog-13152952",
+    "name": "NOAKE TOKYO",
+    "address": "東京都台東区浅草5-3-7",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 11
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71971623789643,
+    "lng": 139.79849188358892,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13152952/"
+  },
+  {
+    "id": "tabelog-13237803",
+    "name": "雷一茶 お抹茶体験店",
+    "address": "東京都台東区浅草2-7-3",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.71444559870411,
+    "lng": 139.79527052469973,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13237803/"
   },
   {
     "id": "tabelog-13274678",
@@ -1176,6 +1131,27 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13188117/"
   },
   {
+    "id": "tabelog-13223257",
+    "name": "ギリシャ家庭料理 フィリ",
+    "address": "東京都台東区浅草橋2-15-3 フィルパーク浅草橋 1F",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.699638437904845,
+    "lng": 139.78491358339562,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13223257/"
+  },
+  {
     "id": "tabelog-13230199",
     "name": "リトルヤミー",
     "address": "東京都台東区柳橋2-3-2 エスポワール浅草橋 1F",
@@ -1201,396 +1177,6 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13230199/"
   },
   {
-    "id": "tabelog-13223257",
-    "name": "ギリシャ家庭料理 フィリ",
-    "address": "東京都台東区浅草橋2-15-3 フィルパーク浅草橋 1F",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.699638437904845,
-    "lng": 139.78491358339562,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13223257/"
-  },
-  {
-    "id": "tabelog-13248271",
-    "name": "珈琲館 トーセイホテルココネ浅草蔵前店",
-    "address": "東京都台東区駒形2-3-3",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 5
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70520477870951,
-    "lng": 139.7937992846074,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13248271/"
-  },
-  {
-    "id": "tabelog-13245116",
-    "name": "家豆花",
-    "address": "東京都台東区浅草橋2-29-14 長島エレガンス第6ビル 1F",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.69930710871118,
-    "lng": 139.78730774455235,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13245116/"
-  },
-  {
-    "id": "tabelog-13283489",
-    "name": "Healthy&amp;co",
-    "address": "東京都台東区浅草橋5-2-7 Cocts秋葉原 1F",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 6
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.69949462693887,
-    "lng": 139.7814030551282,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13283489/"
-  },
-  {
-    "id": "tabelog-13319163",
-    "name": "LINDINO",
-    "address": "東京都台東区寿3-6-1",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 4
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70593203870834,
-    "lng": 139.7915948846163,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13319163/"
-  },
-  {
-    "id": "tabelog-13275007",
-    "name": "和漢カフェ無花果",
-    "address": "東京都台東区蔵前3-16-3 1F",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 5
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70508926870862,
-    "lng": 139.79076279460836,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13275007/"
-  },
-  {
-    "id": "tabelog-13087467",
-    "name": "オーナーズ",
-    "address": "東京都台東区蔵前3-10-1",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70449833790372,
-    "lng": 139.79106238344042,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13087467/"
-  },
-  {
-    "id": "tabelog-13089062",
-    "name": "栄",
-    "address": "東京都台東区浅草橋3-6-1",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 5
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.700694758709645,
-    "lng": 139.78522669456785,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13089062/"
-  },
-  {
-    "id": "tabelog-13270107",
-    "name": "JULLEY Chai stand and bake",
-    "address": "東京都台東区蔵前3-22",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 4
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70545409015235,
-    "lng": 139.791815736205,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13270107/"
-  },
-  {
-    "id": "tabelog-13281428",
-    "name": "KURAMAE CANNELE",
-    "address": "東京都台東区蔵前2-1-23",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70214243790498,
-    "lng": 139.7903689834171,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13281428/"
-  },
-  {
-    "id": "tabelog-13233531",
-    "name": "カフェ ロースター ペッピーノ",
-    "address": "東京都台東区浅草橋2-24-8",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 5
-      },
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 10
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.70057819870965,
-    "lng": 139.78501145456684,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13233531/"
-  },
-  {
-    "id": "tabelog-13048956",
-    "name": "ピポット",
-    "address": "東京都台東区駒形1-1-1 Ｂ１Ｆ",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 1
-      },
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 5
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.70542475653308,
-    "lng": 139.7933298471312,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13048956/"
-  },
-  {
-    "id": "tabelog-13291449",
-    "name": "TRUM",
-    "address": "東京都台東区浅草橋1-11-4 ユニビルⅡ 2F",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.69722436105186,
-    "lng": 139.78408460361973,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13291449/"
-  },
-  {
-    "id": "tabelog-13257899",
-    "name": "ETiAM KURAMAE",
-    "address": "東京都台東区蔵前2-3-5",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.70240796871014,
-    "lng": 139.79022878458167,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13257899/"
-  },
-  {
-    "id": "tabelog-13159006",
-    "name": "カフェ・ベローチェ 浅草橋駅西口店",
-    "address": "東京都台東区浅草橋1-22-16 ヒューリック浅草橋ビル",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.69785131871122,
-    "lng": 139.78451277453962,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13159006/"
-  },
-  {
-    "id": "tabelog-13268342",
-    "name": "トロワ",
-    "address": "東京都台東区寿3-10-5",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 5
-      },
-      {
-        "station": "田原町",
-        "exitElevatorWalkMin": 5
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.706988142675044,
-    "lng": 139.7915423122164,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13268342/"
-  },
-  {
-    "id": "tabelog-13182632",
-    "name": "ソルズコーヒー ロースタリー",
-    "address": "東京都台東区浅草橋3-25-7 NIビル 1F",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 4
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.7014044387102,
-    "lng": 139.7883813845728,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13182632/"
-  },
-  {
-    "id": "tabelog-13108927",
-    "name": "Cafe de Leo",
-    "address": "東京都台東区浅草橋1-23-2",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.69763433790576,
-    "lng": 139.78380708337616,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13108927/"
-  },
-  {
     "id": "tabelog-13289305",
     "name": "Blucca",
     "address": "東京都台東区寿3-5-9",
@@ -1612,12 +1198,12 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13289305/"
   },
   {
-    "id": "tabelog-13053390",
-    "name": "MONCHER",
-    "address": "東京都台東区浅草橋4-11-1 モンシェルビル　１Ｆ",
+    "id": "tabelog-13124625",
+    "name": "らい",
+    "address": "東京都台東区三筋2-24-10",
     "stations": [
       {
-        "station": "浅草橋",
+        "station": "蔵前",
         "exitElevatorWalkMin": 5
       }
     ],
@@ -1628,30 +1214,9 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.698378659058456,
-    "lng": 139.782769381925,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13053390/"
-  },
-  {
-    "id": "tabelog-13161335",
-    "name": "スクエアカフェ 蔵前店",
-    "address": "東京都台東区蔵前2-2-6 B1F～ 1F",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.702133398710224,
-    "lng": 139.78992131457912,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13161335/"
+    "lat": 35.70630853790152,
+    "lng": 139.78777478346103,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13124625/"
   },
   {
     "id": "tabelog-13146889",
@@ -1679,17 +1244,13 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13146889/"
   },
   {
-    "id": "tabelog-13261635",
-    "name": "Paradise Poke",
-    "address": "東京都台東区蔵前2-4-8",
+    "id": "tabelog-13159006",
+    "name": "カフェ・ベローチェ 浅草橋駅西口店",
+    "address": "東京都台東区浅草橋1-22-16 ヒューリック浅草橋ビル",
     "stations": [
       {
-        "station": "浅草",
-        "exitElevatorWalkMin": 1
-      },
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 1
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -1698,10 +1259,73 @@
     "atmosphere": [],
     "babyStrollerAccess": "moderate",
     "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69785131871122,
+    "lng": 139.78451277453962,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13159006/"
+  },
+  {
+    "id": "tabelog-13272312",
+    "name": "夜パフェ専門店VIGO 蔵前店",
+    "address": "東京都台東区蔵前4-21-2 FOCUS KURAMAE  1F",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 5
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
     "hasWifi": true,
-    "lat": 35.702951737904634,
-    "lng": 139.79086998342493,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13261635/"
+    "lat": 35.704770398708575,
+    "lng": 139.7899703746057,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13272312/"
+  },
+  {
+    "id": "tabelog-13277003",
+    "name": "CAFÉ Tarot",
+    "address": "東京都台東区浅草橋1-27-3",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69808593790578,
+    "lng": 139.78475958338007,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13277003/"
+  },
+  {
+    "id": "tabelog-13245116",
+    "name": "家豆花",
+    "address": "東京都台東区浅草橋2-29-14 長島エレガンス第6ビル 1F",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69930710871118,
+    "lng": 139.78730774455235,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13245116/"
   },
   {
     "id": "tabelog-13268121",
@@ -1725,55 +1349,9 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13268121/"
   },
   {
-    "id": "tabelog-13270349",
-    "name": "COFFEE &amp; BAR GENIE KURAMAE",
-    "address": "東京都台東区蔵前3-7-8",
-    "stations": [
-      {
-        "station": "浅草",
-        "exitElevatorWalkMin": 5
-      },
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70408053790386,
-    "lng": 139.79073528343642,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13270349/"
-  },
-  {
-    "id": "tabelog-13076033",
-    "name": "スメル",
-    "address": "東京都台東区浅草橋1-24-2",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.6976670773724,
-    "lng": 139.7832771502953,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13076033/"
-  },
-  {
-    "id": "tabelog-13314958",
-    "name": "チガヤ 蔵前店",
-    "address": "東京都台東区蔵前4-29-3",
+    "id": "tabelog-13198469",
+    "name": "コフィノワ",
+    "address": "東京都台東区蔵前3-20-5 ハッピーメゾン蔵前 1F",
     "stations": [
       {
         "station": "蔵前",
@@ -1787,9 +1365,202 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.70512613870819,
-    "lng": 139.78948248460964,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13314958/"
+    "lat": 35.70517489870887,
+    "lng": 139.79171816460857,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13198469/"
+  },
+  {
+    "id": "tabelog-13285092",
+    "name": "ARC",
+    "address": "東京都台東区鳥越2‐3‐4",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 6
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70206012870911,
+    "lng": 139.78625690458094,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13285092/"
+  },
+  {
+    "id": "tabelog-13089062",
+    "name": "栄",
+    "address": "東京都台東区浅草橋3-6-1",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 5
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.700694758709645,
+    "lng": 139.78522669456785,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13089062/"
+  },
+  {
+    "id": "tabelog-13215459",
+    "name": "コーヒーライツ 蔵前",
+    "address": "東京都台東区蔵前4-20-2 1F",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70408753790355,
+    "lng": 139.7897281834372,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13215459/"
+  },
+  {
+    "id": "tabelog-13298549",
+    "name": "A DECOR LIFE CAFE",
+    "address": "東京都台東区駒形1-1-3 ライオンズミレス蔵前 1F",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 5
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70586868446287,
+    "lng": 139.7930724549572,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13298549/"
+  },
+  {
+    "id": "tabelog-13108927",
+    "name": "Cafe de Leo",
+    "address": "東京都台東区浅草橋1-23-2",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69763433790576,
+    "lng": 139.78380708337616,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13108927/"
+  },
+  {
+    "id": "tabelog-13257899",
+    "name": "ETiAM KURAMAE",
+    "address": "東京都台東区蔵前2-3-5",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.70240796871014,
+    "lng": 139.79022878458167,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13257899/"
+  },
+  {
+    "id": "tabelog-13270107",
+    "name": "JULLEY Chai stand and bake",
+    "address": "東京都台東区蔵前3-22",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70545409015235,
+    "lng": 139.791815736205,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13270107/"
+  },
+  {
+    "id": "tabelog-13291449",
+    "name": "TRUM",
+    "address": "東京都台東区浅草橋1-11-4 ユニビルⅡ 2F",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69722436105186,
+    "lng": 139.78408460361973,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13291449/"
+  },
+  {
+    "id": "tabelog-13233531",
+    "name": "カフェ ロースター ペッピーノ",
+    "address": "東京都台東区浅草橋2-24-8",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 10
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.70057819870965,
+    "lng": 139.78501145456684,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13233531/"
   },
   {
     "id": "tabelog-13039853",
@@ -1813,13 +1584,13 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13039853/"
   },
   {
-    "id": "tabelog-13279280",
-    "name": "小花",
-    "address": "東京都台東区寿3-19-2",
+    "id": "tabelog-13161335",
+    "name": "スクエアカフェ 蔵前店",
+    "address": "東京都台東区蔵前2-2-6 B1F～ 1F",
     "stations": [
       {
-        "station": "田原町",
-        "exitElevatorWalkMin": 4
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -1827,19 +1598,19 @@
     "selfRoasted": false,
     "atmosphere": [],
     "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70753727101512,
-    "lng": 139.79119214962472,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13279280/"
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.702133398710224,
+    "lng": 139.78992131457912,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13161335/"
   },
   {
-    "id": "tabelog-13212182",
-    "name": "ペリカンカフェ",
-    "address": "東京都台東区寿3-9-11 1F",
+    "id": "tabelog-13231565",
+    "name": "葉もれ日",
+    "address": "東京都台東区浅草橋3-4-4",
     "stations": [
       {
-        "station": "田原町",
+        "station": "浅草橋",
         "exitElevatorWalkMin": 5
       }
     ],
@@ -1849,10 +1620,10 @@
     "atmosphere": [],
     "babyStrollerAccess": "moderate",
     "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.706987348707536,
-    "lng": 139.79117002462723,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13212182/"
+    "hasWifi": false,
+    "lat": 35.700562538709896,
+    "lng": 139.78575045456614,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13231565/"
   },
   {
     "id": "tabelog-13215204",
@@ -1876,93 +1647,9 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13215204/"
   },
   {
-    "id": "tabelog-13086853",
-    "name": "ドトールコーヒーショップ 浅草橋南店",
-    "address": "東京都台東区浅草橋1-9-13",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.69691008871223,
-    "lng": 139.78579486452924,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13086853/"
-  },
-  {
-    "id": "tabelog-13076409",
-    "name": "久",
-    "address": "東京都台東区柳橋1-19-7",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.69731189621723,
-    "lng": 139.78663383232075,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13076409/"
-  },
-  {
-    "id": "tabelog-13271901",
-    "name": "半月焙煎研究所",
-    "address": "東京都台東区蔵前4-14-11 ウグイスビル 1F",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70374813790384,
-    "lng": 139.7899543834336,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13271901/"
-  },
-  {
-    "id": "tabelog-13174229",
-    "name": "CAMERA",
-    "address": "東京都台東区蔵前4-21-8 岡松ビル 1F",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.7050266487085,
-    "lng": 139.79025738460808,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13174229/"
-  },
-  {
-    "id": "tabelog-13174653",
-    "name": "ティーズ ベーカリー",
-    "address": "東京都台東区蔵前4-31-4",
+    "id": "tabelog-13275007",
+    "name": "和漢カフェ無花果",
+    "address": "東京都台東区蔵前3-16-3 1F",
     "stations": [
       {
         "station": "蔵前",
@@ -1976,14 +1663,56 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.70569396870809,
-    "lng": 139.7903162846148,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13174653/"
+    "lat": 35.70508926870862,
+    "lng": 139.79076279460836,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13275007/"
   },
   {
-    "id": "tabelog-13316089",
-    "name": "SUNDAE APART",
-    "address": "東京都台東区蔵前2-3-4 ダイシンビル 北側",
+    "id": "tabelog-13314958",
+    "name": "チガヤ 蔵前店",
+    "address": "東京都台東区蔵前4-29-3",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70512613870819,
+    "lng": 139.78948248460964,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13314958/"
+  },
+  {
+    "id": "tabelog-13279280",
+    "name": "小花",
+    "address": "東京都台東区寿3-19-2",
+    "stations": [
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 4
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70753727101512,
+    "lng": 139.79119214962472,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13279280/"
+  },
+  {
+    "id": "tabelog-13281428",
+    "name": "KURAMAE CANNELE",
+    "address": "東京都台東区蔵前2-1-23",
     "stations": [
       {
         "station": "蔵前",
@@ -1997,30 +1726,9 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.70230793871018,
-    "lng": 139.79013668458074,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13316089/"
-  },
-  {
-    "id": "tabelog-13229923",
-    "name": "アトリエ ドゥ カフェ ターブル",
-    "address": "東京都台東区浅草橋1-27-9 アパホテル浅草橋駅前 1F",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.698051537905876,
-    "lng": 139.78498948337955,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13229923/"
+    "lat": 35.70214243790498,
+    "lng": 139.7903689834171,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13281428/"
   },
   {
     "id": "tabelog-13314739",
@@ -2048,9 +1756,126 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13314739/"
   },
   {
-    "id": "tabelog-13231565",
-    "name": "葉もれ日",
-    "address": "東京都台東区浅草橋3-4-4",
+    "id": "tabelog-13268342",
+    "name": "トロワ",
+    "address": "東京都台東区寿3-10-5",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 5
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.706988142675044,
+    "lng": 139.7915423122164,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13268342/"
+  },
+  {
+    "id": "tabelog-13271901",
+    "name": "半月焙煎研究所",
+    "address": "東京都台東区蔵前4-14-11 ウグイスビル 1F",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70374813790384,
+    "lng": 139.7899543834336,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13271901/"
+  },
+  {
+    "id": "tabelog-13076033",
+    "name": "スメル",
+    "address": "東京都台東区浅草橋1-24-2",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 1
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.6976670773724,
+    "lng": 139.7832771502953,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13076033/"
+  },
+  {
+    "id": "tabelog-13270349",
+    "name": "COFFEE &amp; BAR GENIE KURAMAE",
+    "address": "東京都台東区蔵前3-7-8",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70408053790386,
+    "lng": 139.79073528343642,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13270349/"
+  },
+  {
+    "id": "tabelog-13230333",
+    "name": "LEAVES COFFEE ROASTERS",
+    "address": "東京都墨田区本所1-8-8",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 7
+      },
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 10
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70271392871238,
+    "lng": 139.79784139457942,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13230333/"
+  },
+  {
+    "id": "tabelog-13053390",
+    "name": "MONCHER",
+    "address": "東京都台東区浅草橋4-11-1 モンシェルビル　１Ｆ",
     "stations": [
       {
         "station": "浅草橋",
@@ -2064,30 +1889,9 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.700562538709896,
-    "lng": 139.78575045456614,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13231565/"
-  },
-  {
-    "id": "tabelog-13315261",
-    "name": "GINZA NISHIKAWA COFFEE 食パンレストラン 蔵前店",
-    "address": "東京都台東区蔵前4-1-1 蔵前ビル 1F",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.70179023871009,
-    "lng": 139.78883328457638,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13315261/"
+    "lat": 35.698378659058456,
+    "lng": 139.782769381925,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13053390/"
   },
   {
     "id": "tabelog-13111381",
@@ -2115,13 +1919,96 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13111381/"
   },
   {
-    "id": "tabelog-13207537",
-    "name": "珈琲の店ヒロー",
-    "address": "東京都台東区浅草橋2-25",
+    "id": "tabelog-13281905",
+    "name": "喫茶 半月",
+    "address": "東京都台東区蔵前4-14-11 ウグイスビル 1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 2
+      },
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 10
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.703769637903825,
+    "lng": 139.78995838343383,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13281905/"
+  },
+  {
+    "id": "tabelog-13283641",
+    "name": "TRASPARENTE La Cartolina",
+    "address": "東京都台東区蔵前1-3-26 JPライオンビルディング 1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70136533871084,
+    "lng": 139.79034147457105,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13283641/"
+  },
+  {
+    "id": "tabelog-13161593",
+    "name": "クレール ドゥ リュンヌ 本店",
+    "address": "東京都台東区寿3-8-5",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "田原町",
+        "exitElevatorWalkMin": 5
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70660739870775,
+    "lng": 139.79107427462347,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13161593/"
+  },
+  {
+    "id": "tabelog-13229923",
+    "name": "アトリエ ドゥ カフェ ターブル",
+    "address": "東京都台東区浅草橋1-27-9 アパホテル浅草橋駅前 1F",
     "stations": [
       {
         "station": "浅草橋",
-        "exitElevatorWalkMin": 5
+        "exitElevatorWalkMin": 3
       }
     ],
     "brewMethods": [],
@@ -2130,19 +2017,44 @@
     "atmosphere": [],
     "babyStrollerAccess": "moderate",
     "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.700394318057114,
-    "lng": 139.785131592939,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13207537/"
+    "hasWifi": true,
+    "lat": 35.698051537905876,
+    "lng": 139.78498948337955,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13229923/"
   },
   {
-    "id": "tabelog-13298549",
-    "name": "A DECOR LIFE CAFE",
-    "address": "東京都台東区駒形1-1-3 ライオンズミレス蔵前 1F",
+    "id": "tabelog-13298861",
+    "name": "BARK",
+    "address": "東京都台東区蔵前3-13-4",
     "stations": [
       {
         "station": "蔵前",
-        "exitElevatorWalkMin": 5
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.7046607687093,
+    "lng": 139.7920759346031,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13298861/"
+  },
+  {
+    "id": "tabelog-13191976",
+    "name": "ダンデライオン・チョコレート ファクトリー&amp;カフェ蔵前",
+    "address": "東京都台東区蔵前4-14-6",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -2152,9 +2064,72 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.70586868446287,
-    "lng": 139.7930724549572,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13298549/"
+    "lat": 35.703669198709164,
+    "lng": 139.7896332945948,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13191976/"
+  },
+  {
+    "id": "tabelog-13227698",
+    "name": "フォーカス蔵前",
+    "address": "東京都台東区蔵前4-21-2",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.704702898708604,
+    "lng": 139.78996750460502,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13227698/"
+  },
+  {
+    "id": "tabelog-13191880",
+    "name": "カフェ フルセイル",
+    "address": "東京都墨田区本所1-13-4 本所地域プラザBIG SHIP 1F",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 9
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70324517871233,
+    "lng": 139.79874398458415,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13191880/"
+  },
+  {
+    "id": "tabelog-13315261",
+    "name": "GINZA NISHIKAWA COFFEE 食パンレストラン 蔵前店",
+    "address": "東京都台東区蔵前4-1-1 蔵前ビル 1F",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70179023871009,
+    "lng": 139.78883328457638,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13315261/"
   },
   {
     "id": "tabelog-13016870",
@@ -2182,75 +2157,12 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13016870/"
   },
   {
-    "id": "tabelog-13046919",
-    "name": "CAFE 梅の木",
-    "address": "東京都台東区浅草橋1-15-7",
+    "id": "tabelog-13207537",
+    "name": "珈琲の店ヒロー",
+    "address": "東京都台東区浅草橋2-25",
     "stations": [
       {
         "station": "浅草橋",
-        "exitElevatorWalkMin": 2
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.697518637905894,
-    "lng": 139.78397748337488,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13046919/"
-  },
-  {
-    "id": "tabelog-13087661",
-    "name": "Gion",
-    "address": "東京都台東区浅草橋2-4-3",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.698802688710906,
-    "lng": 139.7854089745486,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13087661/"
-  },
-  {
-    "id": "tabelog-13303627",
-    "name": "ナノ コーヒーロースター 浅草橋焙煎所",
-    "address": "東京都台東区浅草橋1-17-4",
-    "stations": [
-      {
-        "station": "浅草橋",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.69732186942112,
-    "lng": 139.78508269749693,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13303627/"
-  },
-  {
-    "id": "tabelog-13124625",
-    "name": "らい",
-    "address": "東京都台東区三筋2-24-10",
-    "stations": [
-      {
-        "station": "蔵前",
         "exitElevatorWalkMin": 5
       }
     ],
@@ -2261,60 +2173,22 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.70630853790152,
-    "lng": 139.78777478346103,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13124625/"
+    "lat": 35.700394318057114,
+    "lng": 139.785131592939,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13207537/"
   },
   {
-    "id": "tabelog-13186135",
-    "name": "膳菜",
-    "address": "東京都台東区蔵前1-7-10 マツリビル 1F",
+    "id": "tabelog-13261635",
+    "name": "Paradise Poke",
+    "address": "東京都台東区蔵前2-4-8",
     "stations": [
       {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.7012374187107,
-    "lng": 139.78960680457027,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13186135/"
-  },
-  {
-    "id": "tabelog-13227698",
-    "name": "フォーカス蔵前",
-    "address": "東京都台東区蔵前4-21-2",
-    "stations": [
+        "station": "浅草",
+        "exitElevatorWalkMin": 1
+      },
       {
         "station": "蔵前",
-        "exitElevatorWalkMin": 3
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": true,
-    "hasWifi": true,
-    "lat": 35.704702898708604,
-    "lng": 139.78996750460502,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13227698/"
-  },
-  {
-    "id": "tabelog-13298861",
-    "name": "BARK",
-    "address": "東京都台東区蔵前3-13-4",
-    "stations": [
-      {
-        "station": "蔵前",
-        "exitElevatorWalkMin": 3
+        "exitElevatorWalkMin": 1
       }
     ],
     "brewMethods": [],
@@ -2324,14 +2198,14 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": true,
-    "lat": 35.7046607687093,
-    "lng": 139.7920759346031,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13298861/"
+    "lat": 35.702951737904634,
+    "lng": 139.79086998342493,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13261635/"
   },
   {
-    "id": "tabelog-13248018",
-    "name": "バーガー喫茶 チルトコ",
-    "address": "東京都台東区蔵前4-33-1 エルミタージュ浅草 1F",
+    "id": "tabelog-13182632",
+    "name": "ソルズコーヒー ロースタリー",
+    "address": "東京都台東区浅草橋3-25-7 NIビル 1F",
     "stations": [
       {
         "station": "蔵前",
@@ -2345,9 +2219,126 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.70548653790271,
-    "lng": 139.78983608345126,
-    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13248018/"
+    "lat": 35.7014044387102,
+    "lng": 139.7883813845728,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13182632/"
+  },
+  {
+    "id": "tabelog-13309116",
+    "name": "アトミヨソワカ 蔵前",
+    "address": "東京都台東区蔵前4-17-4",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 4
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.703823068708665,
+    "lng": 139.78841297459724,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13309116/"
+  },
+  {
+    "id": "tabelog-13174229",
+    "name": "CAMERA",
+    "address": "東京都台東区蔵前4-21-8 岡松ビル 1F",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.7050266487085,
+    "lng": 139.79025738460808,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13174229/"
+  },
+  {
+    "id": "tabelog-13087467",
+    "name": "オーナーズ",
+    "address": "東京都台東区蔵前3-10-1",
+    "stations": [
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70449833790372,
+    "lng": 139.79106238344042,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13087467/"
+  },
+  {
+    "id": "tabelog-13284496",
+    "name": "Lonich,",
+    "address": "東京都台東区蔵前1-7-4 Kビル 1F",
+    "stations": [
+      {
+        "station": "浅草",
+        "exitElevatorWalkMin": 3
+      },
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 7
+      },
+      {
+        "station": "蔵前",
+        "exitElevatorWalkMin": 3
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.70124717871066,
+    "lng": 139.7895208145704,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13284496/"
+  },
+  {
+    "id": "tabelog-13283489",
+    "name": "Healthy&amp;co",
+    "address": "東京都台東区浅草橋5-2-7 Cocts秋葉原 1F",
+    "stations": [
+      {
+        "station": "浅草橋",
+        "exitElevatorWalkMin": 6
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": true,
+    "lat": 35.69949462693887,
+    "lng": 139.7814030551282,
+    "sourceUrl": "https://tabelog.com/tokyo/A1311/A131103/13283489/"
   },
   {
     "id": "tabelog-13253161",
@@ -2413,13 +2404,17 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13222776/"
   },
   {
-    "id": "tabelog-13296434",
-    "name": "Single O Ryogoku Roast Works &amp;Cafe",
-    "address": "東京都墨田区亀沢3-21-5",
+    "id": "tabelog-13259024",
+    "name": "BERTH COFFEE ROASTERY Haru",
+    "address": "東京都墨田区横川2-7-2",
     "stations": [
       {
+        "station": "押上",
+        "exitElevatorWalkMin": 10
+      },
+      {
         "station": "両国",
-        "exitElevatorWalkMin": 13
+        "exitElevatorWalkMin": 15
       }
     ],
     "brewMethods": [],
@@ -2429,9 +2424,9 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.697994548717105,
-    "lng": 139.80326591452794,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13296434/"
+    "lat": 35.703737837910715,
+    "lng": 139.8115243834184,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13259024/"
   },
   {
     "id": "tabelog-13212068",
@@ -2455,6 +2450,69 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13212068/"
   },
   {
+    "id": "tabelog-13318146",
+    "name": "BROWN TABBY",
+    "address": "東京都墨田区亀沢3-13-4 長谷川ビル",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 10
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": true,
+    "hasWifi": true,
+    "lat": 35.69722663330522,
+    "lng": 139.8049299970978,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13318146/"
+  },
+  {
+    "id": "tabelog-13296434",
+    "name": "Single O Ryogoku Roast Works &amp;Cafe",
+    "address": "東京都墨田区亀沢3-21-5",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 13
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.697994548717105,
+    "lng": 139.80326591452794,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13296434/"
+  },
+  {
+    "id": "tabelog-13256200",
+    "name": "oasis",
+    "address": "東京都墨田区千歳1-5-15 オレンジハウス 1F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 8
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69089587871802,
+    "lng": 139.79197124446415,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13256200/"
+  },
+  {
     "id": "tabelog-13207746",
     "name": "CHILL OUT COFFEE&amp;...RECORDS",
     "address": "東京都墨田区緑2-17-8",
@@ -2476,13 +2534,13 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13207746/"
   },
   {
-    "id": "tabelog-13056127",
-    "name": "ウール倶楽部",
-    "address": "東京都墨田区両国3-21-5 丸安毛糸ビル　１Ｆ",
+    "id": "tabelog-13303183",
+    "name": "imillee",
+    "address": "東京都墨田区亀沢1-10-7 1F",
     "stations": [
       {
         "station": "両国",
-        "exitElevatorWalkMin": 1
+        "exitElevatorWalkMin": 8
       }
     ],
     "brewMethods": [],
@@ -2491,15 +2549,36 @@
     "atmosphere": [],
     "babyStrollerAccess": "moderate",
     "hasPower": false,
-    "hasWifi": true,
-    "lat": 35.69483780871619,
-    "lng": 139.7940898945025,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13056127/"
+    "hasWifi": false,
+    "lat": 35.69712773871618,
+    "lng": 139.7986416845224,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13303183/"
   },
   {
-    "id": "tabelog-13204388",
-    "name": "ベーカリー&amp;カフェ ポルニック",
-    "address": "東京都墨田区両国3-22-8",
+    "id": "tabelog-13142853",
+    "name": "サンマルクカフェ 両国西口店",
+    "address": "東京都墨田区両国2-19-1 両国ビューホテル 1F",
+    "stations": [
+      {
+        "station": "両国",
+        "exitElevatorWalkMin": 2
+      }
+    ],
+    "brewMethods": [],
+    "beansAvailable": false,
+    "selfRoasted": false,
+    "atmosphere": [],
+    "babyStrollerAccess": "moderate",
+    "hasPower": false,
+    "hasWifi": false,
+    "lat": 35.69548093871515,
+    "lng": 139.79211831451036,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13142853/"
+  },
+  {
+    "id": "tabelog-13127960",
+    "name": "カフェ・ベローチェ 両国店",
+    "address": "東京都墨田区両国3-25-5 JEI両国ビル1F",
     "stations": [
       {
         "station": "両国",
@@ -2513,18 +2592,18 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.69480628871613,
-    "lng": 139.79384903450233,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13204388/"
+    "lat": 35.695415988715844,
+    "lng": 139.79417516450826,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13127960/"
   },
   {
-    "id": "tabelog-13088154",
-    "name": "チャットアンドコーヒー",
-    "address": "東京都江東区新大橋2-17-10 鈴鹿ハイツ 野瀬ビル 1F",
+    "id": "tabelog-13122489",
+    "name": "モスバーガー 両国店",
+    "address": "東京都墨田区両国3-21-16",
     "stations": [
       {
         "station": "両国",
-        "exitElevatorWalkMin": 11
+        "exitElevatorWalkMin": 2
       }
     ],
     "brewMethods": [],
@@ -2534,9 +2613,9 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.68993263791417,
-    "lng": 139.79484588329063,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13088154/"
+    "lat": 35.694505198716435,
+    "lng": 139.79421884449903,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13122489/"
   },
   {
     "id": "tabelog-13268216",
@@ -2560,30 +2639,9 @@
     "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13268216/"
   },
   {
-    "id": "tabelog-13266517",
-    "name": "珈琲 而今",
-    "address": "東京都墨田区両国4-30-9 RR bldg 1F",
-    "stations": [
-      {
-        "station": "両国",
-        "exitElevatorWalkMin": 6
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.694375328717534,
-    "lng": 139.7973942244955,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13266517/"
-  },
-  {
-    "id": "tabelog-13251107",
-    "name": "ベックスコーヒーショップ 両国店",
-    "address": "東京都墨田区横網1-3-15",
+    "id": "tabelog-13204388",
+    "name": "ベーカリー&amp;カフェ ポルニック",
+    "address": "東京都墨田区両国3-22-8",
     "stations": [
       {
         "station": "両国",
@@ -2597,18 +2655,18 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.69586853790957,
-    "lng": 139.7922885833524,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13251107/"
+    "lat": 35.69480628871613,
+    "lng": 139.79384903450233,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13204388/"
   },
   {
-    "id": "tabelog-13294230",
-    "name": "MARUA CAFE",
-    "address": "東京都墨田区両国1-1-7",
+    "id": "tabelog-13187206",
+    "name": "ウキウキコーヒー",
+    "address": "東京都墨田区太平2-1-11",
     "stations": [
       {
-        "station": "両国",
-        "exitElevatorWalkMin": 6
+        "station": "押上",
+        "exitElevatorWalkMin": 10
       }
     ],
     "brewMethods": [],
@@ -2618,29 +2676,8 @@
     "babyStrollerAccess": "moderate",
     "hasPower": false,
     "hasWifi": false,
-    "lat": 35.6920554687169,
-    "lng": 139.7907671444767,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13294230/"
-  },
-  {
-    "id": "tabelog-13086931",
-    "name": "ドトールコーヒーショップ 両国東口店",
-    "address": "東京都墨田区両国3-26-5 1F",
-    "stations": [
-      {
-        "station": "両国",
-        "exitElevatorWalkMin": 1
-      }
-    ],
-    "brewMethods": [],
-    "beansAvailable": false,
-    "selfRoasted": false,
-    "atmosphere": [],
-    "babyStrollerAccess": "moderate",
-    "hasPower": false,
-    "hasWifi": false,
-    "lat": 35.695515998715564,
-    "lng": 139.79348116450976,
-    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13086931/"
+    "lat": 35.69959511871901,
+    "lng": 139.81244932453768,
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131201/13187206/"
   }
 ]
