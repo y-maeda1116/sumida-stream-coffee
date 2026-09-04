@@ -3,12 +3,6 @@ import { onMount } from "solid-js";
 import type { Shop } from "../types/shop";
 import styles from "./ShopCard.module.css";
 
-const STROLLER_LABELS: Record<string, string> = {
-  easy: "ベビーカーOK",
-  moderate: "ベビーカーやや注意",
-  difficult: "ベビーカー困難",
-};
-
 interface ShopCardProps {
   shop: Shop;
   selectedStation: string | null;
@@ -29,11 +23,6 @@ export const ShopCard: Component<ShopCardProps> = (props) => {
     }
     return props.shop.stations.map((s) => `${s.station} ${s.exitElevatorWalkMin}分`);
   };
-
-  const strollerClass = () =>
-    styles[
-      `babyStroller${props.shop.babyStrollerAccess.charAt(0).toUpperCase()}${props.shop.babyStrollerAccess.slice(1)}`
-    ];
 
   return (
     <a
@@ -73,9 +62,6 @@ export const ShopCard: Component<ShopCardProps> = (props) => {
       <div class={styles.facilities}>
         {props.shop.hasWifi && <span class={styles.facilityItem}>Wi-Fi</span>}
         {props.shop.hasPower && <span class={styles.facilityItem}>電源</span>}
-        <span class={`${styles.facilityItem} ${strollerClass()}`}>
-          {STROLLER_LABELS[props.shop.babyStrollerAccess]}
-        </span>
       </div>
     </a>
   );

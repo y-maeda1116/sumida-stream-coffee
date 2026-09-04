@@ -86,7 +86,6 @@ export interface FilterState {
   brewMethods: BrewMethod[];
   hasWifi: boolean;
   hasPower: boolean;
-  babyStrollerFriendly: boolean;
   atmosphere: AtmosphereTag[];
   beansAvailable: boolean;
   selfRoasted: boolean;
@@ -96,7 +95,6 @@ export const DEFAULT_FILTERS: FilterState = {
   brewMethods: [],
   hasWifi: false,
   hasPower: false,
-  babyStrollerFriendly: false,
   atmosphere: [],
   beansAvailable: false,
   selfRoasted: false,

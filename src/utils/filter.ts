@@ -12,10 +12,6 @@ export function filterShops(shops: Shop[], filters: FilterState): Shop[] {
     if (filters.hasWifi && !shop.hasWifi) return false;
     if (filters.hasPower && !shop.hasPower) return false;
 
-    if (filters.babyStrollerFriendly && shop.babyStrollerAccess === "difficult") {
-      return false;
-    }
-
     if (
       filters.atmosphere.length > 0 &&
       !filters.atmosphere.some((a) => shop.atmosphere.includes(a))

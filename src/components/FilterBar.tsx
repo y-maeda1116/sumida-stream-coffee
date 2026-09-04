@@ -8,9 +8,7 @@ interface FilterBarProps {
 }
 
 export const FilterBar: Component<FilterBarProps> = (props) => {
-  const toggleBool = (
-    key: "hasWifi" | "hasPower" | "babyStrollerFriendly" | "beansAvailable" | "selfRoasted"
-  ) => {
+  const toggleBool = (key: "hasWifi" | "hasPower" | "beansAvailable" | "selfRoasted") => {
     props.onChange({ ...props.filters, [key]: !props.filters[key] });
   };
 
@@ -20,7 +18,6 @@ export const FilterBar: Component<FilterBarProps> = (props) => {
       f.brewMethods.length > 0 ||
       f.hasWifi ||
       f.hasPower ||
-      f.babyStrollerFriendly ||
       f.atmosphere.length > 0 ||
       f.beansAvailable ||
       f.selfRoasted
@@ -42,12 +39,6 @@ export const FilterBar: Component<FilterBarProps> = (props) => {
           onClick={() => toggleBool("hasPower")}
         >
           電源
-        </button>
-        <button
-          class={`${styles.toggle} ${props.filters.babyStrollerFriendly ? styles.toggleActive : ""}`}
-          onClick={() => toggleBool("babyStrollerFriendly")}
-        >
-          ベビーカーOK
         </button>
       </div>
 

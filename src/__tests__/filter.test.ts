@@ -72,15 +72,6 @@ describe("filterShops", () => {
     expect(result.map((s) => s.id)).toEqual(["wifi-power"]);
   });
 
-  it("filters by babyStrollerFriendly (excludes difficult)", () => {
-    const filters: FilterState = {
-      ...DEFAULT_FILTERS,
-      babyStrollerFriendly: true,
-    };
-    const result = filterShops(mockShops, filters);
-    expect(result.map((s) => s.id)).toEqual(["wifi-power", "stroller-ok"]);
-  });
-
   it("filters by brewMethods (OR match)", () => {
     const filters: FilterState = {
       ...DEFAULT_FILTERS,
@@ -115,7 +106,7 @@ describe("filterShops", () => {
     const filters: FilterState = {
       ...DEFAULT_FILTERS,
       hasWifi: true,
-      babyStrollerFriendly: true,
+      beansAvailable: true,
     };
     const result = filterShops(mockShops, filters);
     expect(result.map((s) => s.id)).toEqual(["wifi-power"]);

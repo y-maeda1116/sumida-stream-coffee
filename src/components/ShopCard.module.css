@@ -72,15 +72,3 @@
   align-items: center;
   gap: 2px;
 }
-
-.babyStrollerEasy {
-  color: #4caf50;
-}
-
-.babyStrollerModerate {
-  color: #ff9800;
-}
-
-.babyStrollerDifficult {
-  color: #f44336;
-}

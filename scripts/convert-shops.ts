@@ -193,7 +193,7 @@ async function convertShop(raw: RawShop, index: number, total: number): Promise<
     stations,
     brewMethods: [],
     beansAvailable: false,
-    selfRoasted: false,
+    selfRoasted: /焙煎|ロースタ|roast/i.test(raw.name),
     atmosphere: [],
     babyStrollerAccess: "moderate",
     hasPower: raw.hasPower ?? false,
