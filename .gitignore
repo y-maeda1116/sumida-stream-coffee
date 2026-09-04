@@ -28,3 +28,6 @@ desktop.ini
 
 # Coverage
 coverage/
+
+# Vitest output (attachments/reports, default location since v5)
+.vitest/
