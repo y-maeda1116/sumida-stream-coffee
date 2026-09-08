@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Coffee shop map for Asakusa, Kuramae, Honjo-Azumabashi and Asakusabashi",
   "type": "module",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
