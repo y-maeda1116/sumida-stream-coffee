@@ -2,6 +2,7 @@ import type { Component } from "solid-js";
 import { onMount, onCleanup, createEffect } from "solid-js";
 import L from "leaflet";
 import type { Shop, StationName } from "../types/shop";
+import { buildPopupHtml } from "../utils/popup";
 import styles from "./ShopMap.module.css";
 
 const CENTER: [number, number] = [35.7005, 139.792];
@@ -37,12 +38,7 @@ export const ShopMap: Component<ShopMapProps> = (props) => {
     markers.clearLayers();
 
     props.shops.forEach((shop) => {
-      const walkInfo = shop.stations
-        .map((s) => `${s.station} ${s.exitElevatorWalkMin}分`)
-        .join(" / ");
-      const marker = L.marker([shop.lat, shop.lng]).bindPopup(
-        `<strong>${shop.name}</strong><br/>${shop.address}<br/><span style="color:#6b5e50;font-size:0.85em">${walkInfo}</span><br/><a href="${shop.sourceUrl}" target="_blank" rel="noopener noreferrer">食べログで見る</a>`
-      );
+      const marker = L.marker([shop.lat, shop.lng]).bindPopup(buildPopupHtml(shop));
 
       marker.on("click", () => {
         props.onShopSelect(shop.id);
