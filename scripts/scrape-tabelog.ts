@@ -8,6 +8,7 @@
 import { writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import type { RawShop } from "../src/types/shop";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, "..", "data", "raw_shops.json");
@@ -20,21 +21,6 @@ const AREA_URLS = [
 
 const SLEEP_MS = 3000;
 const MAX_PAGES_PER_AREA = 3;
-
-interface RawShop {
-  id: string;
-  name: string;
-  address: string;
-  station: string;
-  accessText: string;
-  phone: string;
-  hasWifi: boolean | null;
-  hasPower: boolean | null;
-  lat: number | null;
-  lng: number | null;
-  genre: string;
-  sourceUrl: string;
-}
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));

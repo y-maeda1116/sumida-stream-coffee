@@ -82,6 +82,25 @@ export interface Shop {
   sourceUrl: string;
 }
 
+/**
+ * 食べログスクレイプ直後の生データ (data/raw_shops.json) の 1 件分。
+ * scripts/scrape-tabelog.ts と scripts/convert-shops.ts で共有する。
+ */
+export interface RawShop {
+  id: string;
+  name: string;
+  address: string;
+  station: string;
+  accessText: string;
+  phone: string;
+  hasWifi: boolean | null;
+  hasPower: boolean | null;
+  lat: number | null;
+  lng: number | null;
+  genre: string;
+  sourceUrl: string;
+}
+
 export interface FilterState {
   brewMethods: BrewMethod[];
   hasWifi: boolean;

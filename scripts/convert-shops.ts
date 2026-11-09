@@ -10,50 +10,23 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  STATION_NAMES,
+  type RawShop,
+  type Shop,
+  type StationName,
+  type StationWalk,
+} from "../src/types/shop";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const INPUT_PATH = resolve(__dirname, "..", "data", "raw_shops.json");
 const IGNORE_PATH = resolve(__dirname, "..", "data", "ignore.json");
 const OUTPUT_PATH = resolve(__dirname, "..", "data", "shops.json");
 
-const VALID_STATIONS = ["浅草 (TX)", "浅草", "蔵前", "本所吾妻橋", "浅草橋", "田原町", "両国", "押上", "入谷", "三ノ輪"] as const;
-
-interface RawShop {
-  id: string;
-  name: string;
-  address: string;
-  station: string;
-  accessText: string;
-  phone: string;
-  hasWifi: boolean | null;
-  hasPower: boolean | null;
-  lat: number | null;
-  lng: number | null;
-  genre: string;
-  sourceUrl: string;
-}
-
-interface Shop {
-  id: string;
-  name: string;
-  address: string;
-  stations: { station: string; exitElevatorWalkMin: number }[];
-  brewMethods: string[];
-  beansAvailable: boolean;
-  selfRoasted: boolean;
-  atmosphere: string[];
-  babyStrollerAccess: "easy" | "moderate" | "difficult";
-  hasPower: boolean;
-  hasWifi: boolean;
-  lat: number;
-  lng: number;
-  sourceUrl: string;
-}
-
 const FALLBACK_LAT = 35.7148;
 const FALLBACK_LNG = 139.7967;
 
-const STATION_COORDS: Record<string, [number, number]> = {
+const STATION_COORDS: Record<StationName, [number, number]> = {
   "浅草": [35.7148, 139.7967],
   "浅草 (TX)": [35.7115, 139.7968],
   "蔵前": [35.6975, 139.7935],
@@ -73,8 +46,8 @@ function estimateWalkMin(lat: number, lng: number, sLat: number, sLng: number): 
   return Math.max(1, Math.round(distM / 80));
 }
 
-function nearestStations(lat: number, lng: number): { station: string; exitElevatorWalkMin: number }[] {
-  const entries = Object.entries(STATION_COORDS).map(([station, [sLat, sLng]]) => ({
+function nearestStations(lat: number, lng: number): StationWalk[] {
+  const entries = (Object.entries(STATION_COORDS) as [StationName, [number, number]][]).map(([station, [sLat, sLng]]) => ({
     station,
     exitElevatorWalkMin: estimateWalkMin(lat, lng, sLat, sLng),
   }));
@@ -92,8 +65,8 @@ function loadIgnoreList(): Set<string> {
   }
 }
 
-function parseAccessText(accessText: string): { station: string; exitElevatorWalkMin: number }[] {
-  const results: { station: string; exitElevatorWalkMin: number }[] = [];
+function parseAccessText(accessText: string): StationWalk[] {
+  const results: StationWalk[] = [];
   const seen = new Set<string>();
 
   // Normalize: newlines → spaces, full-width digits → half-width, bracket variations
@@ -149,9 +122,9 @@ function parseAccessText(accessText: string): { station: string; exitElevatorWal
   return results;
 }
 
-function findBestStation(text: string): string | null {
-  let bestMatch: string | null = null;
-  for (const valid of VALID_STATIONS) {
+function findBestStation(text: string): StationName | null {
+  let bestMatch: StationName | null = null;
+  for (const valid of STATION_NAMES) {
     if (text.includes(valid)) {
       if (!bestMatch || valid.length > bestMatch.length) {
         bestMatch = valid;
@@ -204,9 +177,9 @@ async function convertShop(raw: RawShop, index: number, total: number): Promise<
   };
 }
 
-function matchStation(rawStation: string): string[] {
-  const matched: string[] = [];
-  for (const s of VALID_STATIONS) {
+function matchStation(rawStation: string): StationName[] {
+  const matched: StationName[] = [];
+  for (const s of STATION_NAMES) {
     if (rawStation.includes(s)) {
       matched.push(s);
     }

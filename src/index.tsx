@@ -1,4 +1,5 @@
 import { render } from "solid-js/web";
+import "leaflet/dist/leaflet.css";
 import "./global.css";
 import { App } from "./App";
 
