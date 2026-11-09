@@ -52,6 +52,24 @@ describe("buildPopupHtml", () => {
     expect(html).toContain("&lt;script&gt;");
   });
 
+  it("javascript: スキームの URL を href に挿入しない", () => {
+    const html = buildPopupHtml({
+      ...baseShop,
+      sourceUrl: "javascript:alert(1)",
+    });
+    expect(html).not.toContain("javascript:");
+    expect(html).toContain('href="#"');
+  });
+
+  it("http/https 以外のスキームも href に挿入しない", () => {
+    const html = buildPopupHtml({
+      ...baseShop,
+      sourceUrl: "data:text/html,<script>alert(1)</script>",
+    });
+    expect(html).not.toContain("data:");
+    expect(html).toContain('href="#"');
+  });
+
   it("href 属性へのインジェクションをエスケープする", () => {
     const html = buildPopupHtml({
       ...baseShop,
